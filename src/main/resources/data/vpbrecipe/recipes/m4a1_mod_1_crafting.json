@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "material",
+  "pattern": [
+    "545",
+    "616",
+    "2 3"
+
+  ],
+  "key": {
+    "1": {
+      "item": "vpbrecipe:rifle_shell_1"
+    },
+    "2": {
+      "item": "vpbrecipe:rifle_magazine_2"
+    },
+    "3": {
+      "item": "vpbrecipe:rifle_grip_1"
+    },
+    "4": {
+      "item": "vpbrecipe:rifle_sight_1"
+    },
+    "5": {
+      "item": "minecraft:brown_dye"
+    },
+    "6": {
+      "item": "minecraft:yellow_dye"
+    }
+  },
+  "result": {
+    "item": "pointblank:m4a1mod1"
+  }
+}

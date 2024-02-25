@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "material",
+  "pattern": [
+    "121",
+    "3 3",
+    "121"
+  ],
+  "key": {
+    "1": {
+      "tag": "minecraft:planks"
+    },
+    "2": {
+      "item": "vpbrecipe:steel_ingot"
+    },
+    "3": {
+      "item": "minecraft:slime_ball"
+    }
+  },
+  "result": {
+    "item": "vpbrecipe:glock_17_grip"
+  }
+}

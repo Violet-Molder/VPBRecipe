@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "material",
+  "pattern": [
+    " 1 ",
+    "1 1",
+    "   "
+  ],
+  "key": {
+    "1": {
+      "item": "vpbrecipe:aluminium_ingot"
+    }
+  },
+  "result": {
+    "item": "vpbrecipe:rifle_sight_1"
+  }
+}

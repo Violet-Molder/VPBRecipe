@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "material",
+  "pattern": [
+    "1  ",
+    "2  ",
+    "   "
+  ],
+  "key": {
+    "1": {
+      "item": "vpbrecipe:m1911a1_shell"
+    },
+    "2": {
+      "item": "vpbrecipe:m1911a1_grip"
+    }
+  },
+  "result": {
+    "item": "pointblank:m1911a1"
+  }
+}

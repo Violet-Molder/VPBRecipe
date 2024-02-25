@@ -1,0 +1,13 @@
+// 1.20.1	2024-02-26T02:29:06.5064697	Block States: vpbrecipe
+c672023cad9249089549d5b0b31800fa275e2bca assets/vpbrecipe/blockstates/aluminium_ore.json
+13e63e890d877185fc0d6e5cd965ac9b5f18c0d6 assets/vpbrecipe/blockstates/deepslate_aluminium_ore.json
+49884095c2611edeea2ee1c6249b95a2fb12a326 assets/vpbrecipe/blockstates/deepslate_zinc_ore.json
+2f0eb0deb328750aa63af5eab7e5306d4c098e6a assets/vpbrecipe/blockstates/zinc_ore.json
+63c77fd1b0829e04bd5761450424fe813f2e1337 assets/vpbrecipe/models/block/aluminium_ore.json
+4cadf54e80accc1ae1e1ccefc0190b129066494a assets/vpbrecipe/models/block/deepslate_aluminium_ore.json
+fa4a59175c4a01c63e83ef41f49ebe35788f877c assets/vpbrecipe/models/block/deepslate_zinc_ore.json
+b62fe8b5504c1468f2e2e1fde82ea077d45ceaf6 assets/vpbrecipe/models/block/zinc_ore.json
+f80ea735e793ee0ee5417fb304d1c569d59e719f assets/vpbrecipe/models/item/aluminium_ore.json
+ad0dde752b72ec3189d429e03add0871b1f1699c assets/vpbrecipe/models/item/deepslate_aluminium_ore.json
+577a697910aa269aa251c241b490fd4ca4b51f7a assets/vpbrecipe/models/item/deepslate_zinc_ore.json
+bfe096f4c5b012a2887f3c2cd41897925c9bd1ec assets/vpbrecipe/models/item/zinc_ore.json

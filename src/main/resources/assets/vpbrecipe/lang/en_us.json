@@ -1,0 +1,38 @@
+{
+  "item.vpbrecipe.model_gun": "Model Gun",
+  "item.vpbrecipe.raw_zinc": "Raw Zinc",
+  "item.vpbrecipe.raw_aluminium": "Raw Aluminium",
+  "item.vpbrecipe.zinc_ingot": "Zinc Ingot",
+  "item.vpbrecipe.aluminium_ingot": "Aluminium Ingot",
+  "item.vpbrecipe.steel_ingot": "Steel Ingot",
+  "item.vpbrecipe.brass_ingot": "Brass Ingot",
+  "item.vpbrecipe.pistol_barrel": "Pistol Barrel",
+  "item.vpbrecipe.glock_17_shell": "Glock17 Shell",
+  "item.vpbrecipe.glock_18_shell": "Glock18 Shell",
+  "item.vpbrecipe.m1911a1_shell": "M1911A1 Shell",
+  "item.vpbrecipe.glock_17_grip": "Glock17 Grip",
+  "item.vpbrecipe.glock_18_grip": "Glock18 Grip",
+  "item.vpbrecipe.m1911a1_grip": "M1911A1 Grip",
+  "item.vpbrecipe.rifle_barrel": "Rifle Barrel",
+  "item.vpbrecipe.rifle_magazine_1": "Rifle Magazine I",
+  "item.vpbrecipe.rifle_magazine_2": "Rifle Magazine II",
+  "item.vpbrecipe.rifle_stock_1": "Rifle Stock I",
+  "item.vpbrecipe.rifle_stock_2": "Rifle Stock II",
+  "item.vpbrecipe.rifle_sight_1": "Rifle Sight I",
+  "item.vpbrecipe.rifle_sight_2": "Rifle Sight II",
+  "item.vpbrecipe.rifle_shell_1": "Rifle Shell I",
+  "item.vpbrecipe.rifle_shell_2": "Rifle Shell II",
+  "item.vpbrecipe.rifle_grip_1": "Rifle Grip I",
+
+
+  "block.vpbrecipe.zinc_ore": "Zinc Ore",
+  "block.vpbrecipe.deepslate_zinc_ore": "Deepslate Zinc Ore",
+  "block.vpbrecipe.aluminium_ore": "Aluminium Ore",
+  "block.vpbrecipe.deepslate_aluminium_ore": "Deepslate Aluminium Ore",
+
+  "creativetab.vpb.ore_group": "VPB-Ore",
+  "creativetab.vpb.material_group": "VPB-Material"
+
+
+
+}

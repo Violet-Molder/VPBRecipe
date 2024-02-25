@@ -1,0 +1,4 @@
+// 1.20.1	2024-02-26T02:29:06.5078614	Tags for minecraft:block mod id vpbrecipe
+a20efac4f6f36299eac8b6c3a715c95edf100c76 data/forge/tags/blocks/ores.json
+a20efac4f6f36299eac8b6c3a715c95edf100c76 data/minecraft/tags/blocks/mineable/pickaxe.json
+a20efac4f6f36299eac8b6c3a715c95edf100c76 data/minecraft/tags/blocks/needs_iron_tool.json

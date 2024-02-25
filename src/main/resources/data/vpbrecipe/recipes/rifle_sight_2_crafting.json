@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "material",
+  "pattern": [
+    "111",
+    "2 2",
+    "   "
+  ],
+  "key": {
+    "1": {
+      "item": "vpbrecipe:steel_ingot"
+    },
+    "2": {
+      "item": "minecraft:glass_pane"
+    }
+  },
+  "result": {
+    "item": "vpbrecipe:rifle_sight_2"
+  }
+}

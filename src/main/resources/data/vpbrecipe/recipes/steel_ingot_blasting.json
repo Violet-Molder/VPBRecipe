@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "group": "material",
+  "ingredient": {
+    "item": "minecraft:iron_ingot"
+  },
+  "result": "vpbrecipe:steel_ingot",
+  "experience": 2,
+  "cookingtime": 200
+}

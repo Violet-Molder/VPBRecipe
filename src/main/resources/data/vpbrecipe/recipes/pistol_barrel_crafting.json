@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aa ",
+    "   ",
+    "   "
+  ],
+  "key": {
+    "a": {
+      "item": "vpbrecipe:steel_ingot"
+    }
+  },
+  "result": {
+    "item": "vpbrecipe:pistol_barrel",
+    "count": 1
+  }
+}

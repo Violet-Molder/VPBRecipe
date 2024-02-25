@@ -1,0 +1,205 @@
+---- Minecraft Crash Report ----
+// I bet Cylons wouldn't have this problem.
+
+Time: 2024-01-31 03:51:50
+Description: Ticking block entity
+
+java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1
+	at java.util.Arrays$ArrayList.get(Arrays.java:4165) ~[?:?] {}
+	at net.minecraft.core.NonNullList.get(NonNullList.java:47) ~[forge-1.20.1-47.2.20_mapped_parchment_2023.09.03-1.20.1.jar%23191!/:?] {re:classloading}
+	at com.linweiyun.vpbrecipemod.Atest.block.recipe.RepiceTest2.matches(RepiceTest2.java:42) ~[%23196!/:?] {re:classloading}
+	at com.linweiyun.vpbrecipemod.Atest.block.recipe.RepiceTest2.matches(RepiceTest2.java:21) ~[%23196!/:?] {re:classloading}
+	at net.minecraft.world.item.crafting.RecipeManager.lambda$getRecipeFor$2(RecipeManager.java:94) ~[forge-1.20.1-47.2.20_mapped_parchment_2023.09.03-1.20.1.jar%23191!/:?] {re:classloading}
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:178) ~[?:?] {}
+	at java.util.Spliterators$IteratorSpliterator.tryAdvance(Spliterators.java:1856) ~[?:?] {}
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:129) ~[?:?] {}
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:527) ~[?:?] {}
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:513) ~[?:?] {}
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?] {}
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150) ~[?:?] {}
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:?] {}
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:647) ~[?:?] {}
+	at net.minecraft.world.item.crafting.RecipeManager.getRecipeFor(RecipeManager.java:95) ~[forge-1.20.1-47.2.20_mapped_parchment_2023.09.03-1.20.1.jar%23191!/:?] {re:classloading}
+	at com.linweiyun.vpbrecipemod.Atest.block.entity.TestBlockEntity_3.hasRecipe(TestBlockEntity_3.java:206) ~[%23196!/:?] {re:classloading}
+	at com.linweiyun.vpbrecipemod.Atest.block.entity.TestBlockEntity_3.tick(TestBlockEntity_3.java:136) ~[%23196!/:?] {re:classloading}
+	at net.minecraft.world.level.chunk.LevelChunk$BoundTickingBlockEntity.tick(LevelChunk.java:689) ~[forge-1.20.1-47.2.20_mapped_parchment_2023.09.03-1.20.1.jar%23191!/:?] {re:classloading}
+	at net.minecraft.world.level.chunk.LevelChunk$RebindableTickingBlockEntityWrapper.tick(LevelChunk.java:782) ~[forge-1.20.1-47.2.20_mapped_parchment_2023.09.03-1.20.1.jar%23191!/:?] {re:classloading}
+	at net.minecraft.world.level.Level.tickBlockEntities(Level.java:468) ~[forge-1.20.1-47.2.20_mapped_parchment_2023.09.03-1.20.1.jar%23191!/:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.server.level.ServerLevel.tick(ServerLevel.java:351) ~[forge-1.20.1-47.2.20_mapped_parchment_2023.09.03-1.20.1.jar%23191!/:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:893) ~[forge-1.20.1-47.2.20_mapped_parchment_2023.09.03-1.20.1.jar%23191!/:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:814) ~[forge-1.20.1-47.2.20_mapped_parchment_2023.09.03-1.20.1.jar%23191!/:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.client.server.IntegratedServer.tickServer(IntegratedServer.java:89) ~[forge-1.20.1-47.2.20_mapped_parchment_2023.09.03-1.20.1.jar%23191!/:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:661) ~[forge-1.20.1-47.2.20_mapped_parchment_2023.09.03-1.20.1.jar%23191!/:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:251) ~[forge-1.20.1-47.2.20_mapped_parchment_2023.09.03-1.20.1.jar%23191!/:?] {re:classloading,pl:accesstransformer:B}
+	at java.lang.Thread.run(Thread.java:833) ~[?:?] {}
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Server thread
+Suspected Mod: 
+	Lycoris Mod (lycoris), Version: 0.0.1
+		at TRANSFORMER/lycoris@0.0.1/com.linweiyun.vpbrecipemod.Atest.block.recipe.RepiceTest2.matches(RepiceTest2.java:42)
+Stacktrace:
+	at java.util.Arrays$ArrayList.get(Arrays.java:4165) ~[?:?] {}
+	at net.minecraft.core.NonNullList.get(NonNullList.java:47) ~[forge-1.20.1-47.2.20_mapped_parchment_2023.09.03-1.20.1.jar%23191!/:?] {re:classloading}
+	at com.linweiyun.vpbrecipemod.Atest.block.recipe.RepiceTest2.matches(RepiceTest2.java:42) ~[%23196!/:?] {re:classloading}
+	at com.linweiyun.vpbrecipemod.Atest.block.recipe.RepiceTest2.matches(RepiceTest2.java:21) ~[%23196!/:?] {re:classloading}
+	at net.minecraft.world.item.crafting.RecipeManager.lambda$getRecipeFor$2(RecipeManager.java:94) ~[forge-1.20.1-47.2.20_mapped_parchment_2023.09.03-1.20.1.jar%23191!/:?] {re:classloading}
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:178) ~[?:?] {}
+	at java.util.Spliterators$IteratorSpliterator.tryAdvance(Spliterators.java:1856) ~[?:?] {}
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:129) ~[?:?] {}
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:527) ~[?:?] {}
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:513) ~[?:?] {}
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?] {}
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150) ~[?:?] {}
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:?] {}
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:647) ~[?:?] {}
+	at net.minecraft.world.item.crafting.RecipeManager.getRecipeFor(RecipeManager.java:95) ~[forge-1.20.1-47.2.20_mapped_parchment_2023.09.03-1.20.1.jar%23191!/:?] {re:classloading}
+	at com.linweiyun.vpbrecipemod.Atest.block.entity.TestBlockEntity_3.hasRecipe(TestBlockEntity_3.java:206) ~[%23196!/:?] {re:classloading}
+	at com.linweiyun.vpbrecipemod.Atest.block.entity.TestBlockEntity_3.tick(TestBlockEntity_3.java:136) ~[%23196!/:?] {re:classloading}
+	at net.minecraft.world.level.chunk.LevelChunk$BoundTickingBlockEntity.tick(LevelChunk.java:689) ~[forge-1.20.1-47.2.20_mapped_parchment_2023.09.03-1.20.1.jar%23191!/:?] {re:classloading}
+	at net.minecraft.world.level.chunk.LevelChunk$RebindableTickingBlockEntityWrapper.tick(LevelChunk.java:782) ~[forge-1.20.1-47.2.20_mapped_parchment_2023.09.03-1.20.1.jar%23191!/:?] {re:classloading}
+	at net.minecraft.world.level.Level.tickBlockEntities(Level.java:468) ~[forge-1.20.1-47.2.20_mapped_parchment_2023.09.03-1.20.1.jar%23191!/:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.server.level.ServerLevel.tick(ServerLevel.java:351) ~[forge-1.20.1-47.2.20_mapped_parchment_2023.09.03-1.20.1.jar%23191!/:?] {re:classloading,pl:accesstransformer:B}
+-- Block entity being ticked --
+Details:
+	Name: lycoris:test_3 // com.linweiyun.vpbrecipemod.Atest.block.entity.TestBlockEntity_3
+	Block: Block{lycoris:test_3}
+	Block location: World: (187,65,203), Section: (at 11,1,11 in 11,4,12; chunk contains blocks 176,-64,192 to 191,319,207), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,-64,0 to 511,319,511)
+	Block: Block{lycoris:test_3}
+	Block location: World: (187,65,203), Section: (at 11,1,11 in 11,4,12; chunk contains blocks 176,-64,192 to 191,319,207), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,-64,0 to 511,319,511)
+Stacktrace:
+	at net.minecraft.world.level.chunk.LevelChunk$BoundTickingBlockEntity.tick(LevelChunk.java:689) ~[forge-1.20.1-47.2.20_mapped_parchment_2023.09.03-1.20.1.jar%23191!/:?] {re:classloading}
+	at net.minecraft.world.level.chunk.LevelChunk$RebindableTickingBlockEntityWrapper.tick(LevelChunk.java:782) ~[forge-1.20.1-47.2.20_mapped_parchment_2023.09.03-1.20.1.jar%23191!/:?] {re:classloading}
+	at net.minecraft.world.level.Level.tickBlockEntities(Level.java:468) ~[forge-1.20.1-47.2.20_mapped_parchment_2023.09.03-1.20.1.jar%23191!/:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.server.level.ServerLevel.tick(ServerLevel.java:351) ~[forge-1.20.1-47.2.20_mapped_parchment_2023.09.03-1.20.1.jar%23191!/:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:893) ~[forge-1.20.1-47.2.20_mapped_parchment_2023.09.03-1.20.1.jar%23191!/:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:814) ~[forge-1.20.1-47.2.20_mapped_parchment_2023.09.03-1.20.1.jar%23191!/:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.client.server.IntegratedServer.tickServer(IntegratedServer.java:89) ~[forge-1.20.1-47.2.20_mapped_parchment_2023.09.03-1.20.1.jar%23191!/:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:661) ~[forge-1.20.1-47.2.20_mapped_parchment_2023.09.03-1.20.1.jar%23191!/:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:251) ~[forge-1.20.1-47.2.20_mapped_parchment_2023.09.03-1.20.1.jar%23191!/:?] {re:classloading,pl:accesstransformer:B}
+	at java.lang.Thread.run(Thread.java:833) ~[?:?] {}
+
+
+-- Affected level --
+Details:
+	All players: 1 total; [ServerPlayer['Dev'/283, l='ServerLevel[新的世界]', x=189.79, y=65.00, z=202.18]]
+	Chunk stats: 2809
+	Level dimension: minecraft:overworld
+	Level spawn location: World: (208,63,192), Section: (at 0,15,0 in 13,3,12; chunk contains blocks 208,-64,192 to 223,319,207), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,-64,0 to 511,319,511)
+	Level time: 4670 game time, 4670 day time
+	Level name: 新的世界
+	Level game mode: Game mode: creative (ID 1). Hardcore: false. Cheats: true
+	Level weather: Rain time: 164245 (now: false), thunder time: 90933 (now: false)
+	Known server brands: forge
+	Removed feature flags: 
+	Level was modded: true
+	Level storage version: 0x04ABD - Anvil
+Stacktrace:
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:893) ~[forge-1.20.1-47.2.20_mapped_parchment_2023.09.03-1.20.1.jar%23191!/:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:814) ~[forge-1.20.1-47.2.20_mapped_parchment_2023.09.03-1.20.1.jar%23191!/:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.client.server.IntegratedServer.tickServer(IntegratedServer.java:89) ~[forge-1.20.1-47.2.20_mapped_parchment_2023.09.03-1.20.1.jar%23191!/:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:661) ~[forge-1.20.1-47.2.20_mapped_parchment_2023.09.03-1.20.1.jar%23191!/:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:251) ~[forge-1.20.1-47.2.20_mapped_parchment_2023.09.03-1.20.1.jar%23191!/:?] {re:classloading,pl:accesstransformer:B}
+	at java.lang.Thread.run(Thread.java:833) ~[?:?] {}
+
+
+-- System Details --
+Details:
+	Minecraft Version: 1.20.1
+	Minecraft Version ID: 1.20.1
+	Operating System: Windows 11 (amd64) version 10.0
+	Java Version: 17.0.8, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode, sharing), Oracle Corporation
+	Memory: 1679007008 bytes (1601 MiB) / 2919235584 bytes (2784 MiB) up to 8493465600 bytes (8100 MiB)
+	CPUs: 20
+	Processor Vendor: GenuineIntel
+	Processor Name: 13th Gen Intel(R) Core(TM) i9-13900H
+	Identifier: Intel64 Family 6 Model 186 Stepping 2
+	Microarchitecture: unknown
+	Frequency (GHz): 3.00
+	Number of physical packages: 1
+	Number of physical CPUs: 14
+	Number of logical CPUs: 20
+	Graphics card #0 name: OrayIddDriver Device
+	Graphics card #0 vendor: Shanghai Best Oray Information Technology Co., Ltd.
+	Graphics card #0 VRAM (MB): 0.00
+	Graphics card #0 deviceId: unknown
+	Graphics card #0 versionInfo: DriverVersion=17.1.58.818
+	Graphics card #1 name: USB Mobile Monitor Virtual Display
+	Graphics card #1 vendor: Amyuni
+	Graphics card #1 VRAM (MB): 0.00
+	Graphics card #1 deviceId: unknown
+	Graphics card #1 versionInfo: DriverVersion=2.0.0.1
+	Graphics card #2 name: Parsec Virtual Display Adapter
+	Graphics card #2 vendor: Parsec Cloud, Inc.
+	Graphics card #2 VRAM (MB): 0.00
+	Graphics card #2 deviceId: unknown
+	Graphics card #2 versionInfo: DriverVersion=0.41.0.0
+	Graphics card #3 name: USB Mobile Monitor Virtual Display
+	Graphics card #3 vendor: Amyuni
+	Graphics card #3 VRAM (MB): 0.00
+	Graphics card #3 deviceId: unknown
+	Graphics card #3 versionInfo: DriverVersion=2.0.0.1
+	Graphics card #4 name: Intel(R) Iris(R) Xe Graphics
+	Graphics card #4 vendor: Intel Corporation (0x8086)
+	Graphics card #4 VRAM (MB): 1024.00
+	Graphics card #4 deviceId: 0xa7a0
+	Graphics card #4 versionInfo: DriverVersion=31.0.101.4502
+	Graphics card #5 name: LuminonCore IDDCX Adapter
+	Graphics card #5 vendor: LuminonCore
+	Graphics card #5 VRAM (MB): 0.00
+	Graphics card #5 deviceId: unknown
+	Graphics card #5 versionInfo: DriverVersion=1.0.2018.1204
+	Graphics card #6 name: NVIDIA GeForce RTX 4060 Laptop GPU
+	Graphics card #6 vendor: NVIDIA (0x10de)
+	Graphics card #6 VRAM (MB): 4095.00
+	Graphics card #6 deviceId: 0x28e0
+	Graphics card #6 versionInfo: DriverVersion=31.0.15.4617
+	Memory slot #0 capacity (MB): 16384.00
+	Memory slot #0 clockSpeed (GHz): 4.80
+	Memory slot #0 type: Unknown
+	Memory slot #1 capacity (MB): 16384.00
+	Memory slot #1 clockSpeed (GHz): 4.80
+	Memory slot #1 type: Unknown
+	Virtual memory max (MB): 52874.72
+	Virtual memory used (MB): 32741.30
+	Swap memory total (MB): 20480.00
+	Swap memory used (MB): 240.10
+	JVM Flags: 1 total; -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump
+	Server Running: true
+	Player Count: 1 / 8; [ServerPlayer['Dev'/283, l='ServerLevel[新的世界]', x=189.79, y=65.00, z=202.18]]
+	Data Packs: vanilla, mod:lycoris, mod:forge
+	Enabled Feature Flags: minecraft:vanilla
+	World Generation: Stable
+	Type: Integrated Server (map_client.txt)
+	Is Modded: Definitely; Client brand changed to 'forge'; Server brand changed to 'forge'
+	Launched Version: MOD_DEV
+	ModLauncher: 10.0.9+10.0.9+main.dcd20f30
+	ModLauncher launch target: forgeclientuserdev
+	ModLauncher naming: mcp
+	ModLauncher services: 
+		mixin-0.8.5.jar mixin PLUGINSERVICE 
+		eventbus-6.0.5.jar eventbus PLUGINSERVICE 
+		fmlloader-1.20.1-47.2.20.jar slf4jfixer PLUGINSERVICE 
+		fmlloader-1.20.1-47.2.20.jar object_holder_definalize PLUGINSERVICE 
+		fmlloader-1.20.1-47.2.20.jar runtime_enum_extender PLUGINSERVICE 
+		fmlloader-1.20.1-47.2.20.jar capability_token_subclass PLUGINSERVICE 
+		accesstransformers-8.0.4.jar accesstransformer PLUGINSERVICE 
+		fmlloader-1.20.1-47.2.20.jar runtimedistcleaner PLUGINSERVICE 
+		modlauncher-10.0.9.jar mixin TRANSFORMATIONSERVICE 
+		modlauncher-10.0.9.jar fml TRANSFORMATIONSERVICE 
+	FML Language Providers: 
+		minecraft@1.0
+		lowcodefml@null
+		javafml@null
+	Mod List: 
+		forge-1.20.1-47.2.20_mapped_parchment_2023.09.03-1|Minecraft                     |minecraft                     |1.20.1              |DONE      |Manifest: a1:d4:5e:04:4f:d3:d6:e0:7b:37:97:cf:77:b0:de:ad:4a:47:ce:8c:96:49:5f:0a:cf:8c:ae:b2:6d:4b:8a:3f
+		main                                              |Lycoris Mod                   |lycoris                       |0.0.1               |DONE      |Manifest: NOSIGNATURE
+		                                                  |Forge                         |forge                         |47.2.20             |DONE      |Manifest: NOSIGNATURE
+	Crash Report UUID: 706906f2-d5e0-46ff-84b7-caf5f9d42d59
+	FML: 47.2
+	Forge: net.minecraftforge:47.2.20

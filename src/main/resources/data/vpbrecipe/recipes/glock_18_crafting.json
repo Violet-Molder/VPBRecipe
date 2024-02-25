@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "material",
+  "pattern": [
+    "1  ",
+    "2  ",
+    "   "
+  ],
+  "key": {
+    "1": {
+      "item": "vpbrecipe:glock_18_shell"
+    },
+    "2": {
+      "item": "vpbrecipe:glock_18_grip"
+    }
+  },
+  "result": {
+    "item": "pointblank:glock18"
+  }
+}

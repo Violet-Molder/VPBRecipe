@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "group": "material",
+  "ingredient": {
+    "item": "vpbrecipe:raw_zinc"
+  },
+  "result": "vpbrecipe:zinc_ingot",
+  "cookingtime": 100
+}

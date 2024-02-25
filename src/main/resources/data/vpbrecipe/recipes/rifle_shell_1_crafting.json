@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "material",
+  "pattern": [
+    "113",
+    " 42",
+    "113"
+  ],
+  "key": {
+    "1": {
+      "item": "vpbrecipe:steel_ingot"
+    },
+    "2": {
+      "item": "vpbrecipe:rifle_stock_1"
+    },
+    "3": {
+      "item": "minecraft:slime_ball"
+    },
+    "4": {
+      "item": "vpbrecipe:rifle_barrel"
+    }
+  },
+  "result": {
+    "item": "vpbrecipe:rifle_shell_1"
+  }
+}

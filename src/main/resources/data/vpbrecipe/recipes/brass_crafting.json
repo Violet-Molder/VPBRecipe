@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "material",
+  "ingredients": [
+    {
+      "item": "minecraft:copper_ingot"
+    },
+    {
+      "item": "vpbrecipe:zinc_ingot"
+    }
+  ],
+  "result": {
+    "item": "vpbrecipe:brass_ingot"
+  }
+}

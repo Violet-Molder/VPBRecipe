@@ -9,7 +9,7 @@
   ],
   "key": {
     "1": {
-      "item": "vpbrecipe:aluminium_ingot"
+      "tag": "forge:ingots/aluminium"
     },
     "2": {
       "item": "minecraft:gunpowder"
@@ -17,6 +17,6 @@
   },
   "result": {
     "item": "pointblank:ammo9mm",
-    "count": 8
+    "count": 32
   }
 }

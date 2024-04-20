@@ -1,0 +1,22 @@
+
+
+{
+	"variants": {
+		"facing=south": {
+			"model": "vpbrecipe:block/firearm_assembly_station",
+			"y": 270
+		},
+		"facing=east": {
+			"model": "vpbrecipe:block/firearm_assembly_station",
+			"y": 180
+		},
+		"facing=north": {
+			"model": "vpbrecipe:block/firearm_assembly_station",
+			"y": 90
+		},
+
+		"facing=west": {
+			"model": "vpbrecipe:block/firearm_assembly_station"
+		}
+	}
+}

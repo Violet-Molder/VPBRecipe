@@ -4,7 +4,7 @@
   "group": "material",
   "pattern": [
     "121",
-    "343",
+    "323",
     "121"
   ],
   "key": {
@@ -12,12 +12,9 @@
       "tag": "minecraft:planks"
     },
     "2": {
-      "item": "vpbrecipe:steel_ingot"
+      "tag": "forge:ingots/steel"
     },
     "3": {
-      "item": "minecraft:slime_ball"
-    },
-    "4": {
       "tag": "minecraft:logs"
     }
   },

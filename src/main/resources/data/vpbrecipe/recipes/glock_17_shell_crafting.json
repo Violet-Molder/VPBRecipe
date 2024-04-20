@@ -3,19 +3,19 @@
   "category": "misc",
   "group": "material",
   "pattern": [
-    "131",
+    "111",
     " 2 ",
-    "131"
+    "333"
   ],
   "key": {
     "1": {
-      "item": "vpbrecipe:steel_ingot"
+      "tag": "forge:ingots/steel"
     },
     "2": {
       "item": "vpbrecipe:pistol_barrel"
     },
     "3": {
-      "item": "minecraft:slime_ball"
+      "item": "vpbrecipe:engineering_plastic_board"
     }
   },
   "result": {

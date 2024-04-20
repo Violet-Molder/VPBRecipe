@@ -3,6 +3,11 @@
     "vpbrecipe:aluminium_ore",
     "vpbrecipe:zinc_ore",
     "vpbrecipe:deepslate_zinc_ore",
-    "vpbrecipe:deepslate_aluminium_ore"
+    "vpbrecipe:deepslate_aluminium_ore",
+    "vpbrecipe:saltpeter_ore",
+    "vpbrecipe:deepslate_saltpeter_ore",
+    "vpbrecipe:sulfur_ore",
+    "vpbrecipe:deepslate_sulfur_ore",
+    "vpbrecipe:oil_shale_ore"
   ]
 }

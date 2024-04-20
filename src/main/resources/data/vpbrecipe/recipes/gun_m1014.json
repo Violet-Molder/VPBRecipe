@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "material",
+  "ingredients": [
+    {
+      "item": "vpbrecipe:m1014_item"
+    }
+  ],
+  "result": {
+    "item": "pointblank:m1014"
+  }
+}

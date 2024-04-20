@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "material",
+  "pattern": [
+    "121",
+    "232",
+    "232"
+  ],
+  "key": {
+    "1": {
+      "tag": "forge:ingots/brass"
+    },
+    "2": {
+      "item": "minecraft:gunpowder"
+    },
+    "3": {
+      "tag": "forge:ingots/zinc"
+    }
+  },
+  "result": {
+    "item": "pointblank:at4_rocket",
+    "count": 8
+  }
+}

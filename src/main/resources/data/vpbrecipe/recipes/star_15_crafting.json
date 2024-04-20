@@ -3,9 +3,9 @@
   "category": "misc",
   "group": "material",
   "pattern": [
+    " 6 ",
     "41 ",
-    "253",
-    "   "
+    "253"
   ],
   "key": {
     "1": {
@@ -18,10 +18,13 @@
       "item": "vpbrecipe:rifle_grip_1"
     },
     "4": {
-      "item": "vpbrecipe:zinc_ingot"
+      "tag": "forge:ingots/zinc"
     },
     "5": {
       "item": "minecraft:light_gray_dye"
+    },
+    "6": {
+      "item": "vpbrecipe:rifle_sight_2"
     }
   },
   "result": {

@@ -1,0 +1,22 @@
+
+
+{
+	"variants": {
+		"facing=south": {
+			"model": "vpbrecipe:block/weapon_crafting_table",
+			"y": 270
+		},
+		"facing=east": {
+			"model": "vpbrecipe:block/weapon_crafting_table",
+			"y": 180
+		},
+		"facing=north": {
+			"model": "vpbrecipe:block/weapon_crafting_table",
+			"y": 90
+		},
+
+		"facing=west": {
+			"model": "vpbrecipe:block/weapon_crafting_table"
+		}
+	}
+}

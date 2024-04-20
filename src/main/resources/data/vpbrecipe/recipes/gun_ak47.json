@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "material",
+  "ingredients": [
+    {
+      "item": "vpbrecipe:ak47_item"
+    }
+  ],
+  "result": {
+    "item": "pointblank:ak47"
+  }
+}

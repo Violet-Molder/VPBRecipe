@@ -1,0 +1,11 @@
+{
+  "type": "vpbrecipe:weapon_crafting_table",
+  "ingredients": [
+    {
+      "item": "vpbrecipe:zinc_ingot"
+    }
+  ],
+  "output": {
+    "item": "vpbrecipe:weapon_box"
+  }
+}

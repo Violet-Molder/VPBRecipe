@@ -25,8 +25,11 @@ public class VPBRMaterial {
     public static final RegistryObject<Item> RIFLE_GRIP_I;
     public static final RegistryObject<Item> RIFLE_SHELL_I;
     public static final RegistryObject<Item> RIFLE_SHELL_II;
+    public static final RegistryObject<Item> RIFLE_SHELL_III;
+
     public static final RegistryObject<Item> RIFLE_STOCK_I;
     public static final RegistryObject<Item> RIFLE_STOCK_II;
+    public static final RegistryObject<Item> RIFLE_STOCK_III;
     public static final RegistryObject<Item> RIFLE_MAGAZINE_I;
     public static final RegistryObject<Item> RIFLE_MAGAZINE_II;
     public static final RegistryObject<Item> RIFLE_SIGHT_I;
@@ -34,6 +37,8 @@ public class VPBRMaterial {
 
     public VPBRMaterial() {
     }
+
+
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
@@ -68,16 +73,24 @@ public class VPBRMaterial {
         RIFLE_GRIP_I = ITEMS.register("rifle_grip_1", () -> {
             return new Item(new Item.Properties());
         });
+
         RIFLE_SHELL_I = ITEMS.register("rifle_shell_1", () -> {
             return new Item(new Item.Properties());
         });
         RIFLE_SHELL_II = ITEMS.register("rifle_shell_2", () -> {
             return new Item(new Item.Properties());
         });
+        RIFLE_SHELL_III = ITEMS.register("rifle_shell_3", () -> {
+            return new Item(new Item.Properties());
+        });
+
         RIFLE_STOCK_I = ITEMS.register("rifle_stock_1", () -> {
             return new Item(new Item.Properties());
         });
         RIFLE_STOCK_II = ITEMS.register("rifle_stock_2", () -> {
+            return new Item(new Item.Properties());
+        });
+        RIFLE_STOCK_III = ITEMS.register("rifle_stock_3", () -> {
             return new Item(new Item.Properties());
         });
         RIFLE_MAGAZINE_I = ITEMS.register("rifle_magazine_1", () -> {

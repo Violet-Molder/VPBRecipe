@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "material",
+  "pattern": [
+    "111",
+    "1 1",
+    "111"
+  ],
+  "key": {
+    "1": {
+      "tag": "forge:ingots/aluminium"
+    }
+  },
+  "result": {
+    "item": "vpbrecipe:aluminium_ingot",
+    "count": 8
+  }
+}

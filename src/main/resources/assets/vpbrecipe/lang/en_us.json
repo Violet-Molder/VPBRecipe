@@ -1,4 +1,10 @@
 {
+  "gui.vpbrecipe.weapon_box.button_que_ren":"Confirm",
+  "gui.vpbrecipe.weapon_box.label_weapon":"The weapon you are currently selecting is:",
+
+  "item.vpbrecipe.pistol_weapon_box": "Pistol_Weapon_Box",
+
+
   "item.vpbrecipe.model_gun": "Model Gun",
   "item.vpbrecipe.raw_zinc": "Raw Zinc",
   "item.vpbrecipe.raw_aluminium": "Raw Aluminium",
@@ -6,6 +12,10 @@
   "item.vpbrecipe.aluminium_ingot": "Aluminium Ingot",
   "item.vpbrecipe.steel_ingot": "Steel Ingot",
   "item.vpbrecipe.brass_ingot": "Brass Ingot",
+  "item.vpbrecipe.saltpeter_dust": "Saltpeter Dust",
+  "item.vpbrecipe.sulfur_dust": "Sulfur Dust",
+  "item.vpbrecipe.oil_shale": "Oil Shale",
+  "item.vpbrecipe.engineering_plastic_board": "Engineering Plastic Board",
   "item.vpbrecipe.pistol_barrel": "Pistol Barrel",
   "item.vpbrecipe.glock_17_shell": "Glock17 Shell",
   "item.vpbrecipe.glock_18_shell": "Glock18 Shell",
@@ -16,12 +26,19 @@
   "item.vpbrecipe.rifle_barrel": "Rifle Barrel",
   "item.vpbrecipe.rifle_magazine_1": "Rifle Magazine I",
   "item.vpbrecipe.rifle_magazine_2": "Rifle Magazine II",
+
+
   "item.vpbrecipe.rifle_stock_1": "Rifle Stock I",
   "item.vpbrecipe.rifle_stock_2": "Rifle Stock II",
+  "item.vpbrecipe.rifle_stock_3": "Rifle Stock III",
+
   "item.vpbrecipe.rifle_sight_1": "Rifle Sight I",
   "item.vpbrecipe.rifle_sight_2": "Rifle Sight II",
+
   "item.vpbrecipe.rifle_shell_1": "Rifle Shell I",
   "item.vpbrecipe.rifle_shell_2": "Rifle Shell II",
+  "item.vpbrecipe.rifle_shell_3": "Rifle Shell III",
+
   "item.vpbrecipe.rifle_grip_1": "Rifle Grip I",
 
 
@@ -29,9 +46,62 @@
   "block.vpbrecipe.deepslate_zinc_ore": "Deepslate Zinc Ore",
   "block.vpbrecipe.aluminium_ore": "Aluminium Ore",
   "block.vpbrecipe.deepslate_aluminium_ore": "Deepslate Aluminium Ore",
+  "block.vpbrecipe.saltpeter_ore": "Saltpeter Ore",
+  "block.vpbrecipe.deepslate_saltpeter_ore": "Deepslate Saltpeter Ore",
+  "block.vpbrecipe.sulfur_ore": "Sulfur Ore",
+  "block.vpbrecipe.deepslate_sulfur_ore": "Deepslate Sulfur Ore",
+  "block.vpbrecipe.oil_shale_ore": "Oil Shale Ore",
+  "block.vpbrecipe.firearm_assembly_station": "Firearm Assembly Station",
+  "block.vpbrecipe.ammunition_assembly_station": "Ammunition Assembly Station",
+  "block.vpbrecipe.industrial_planks": "Industrial Planks",
 
-  "creativetab.vpb.ore_group": "VPB-Ore",
-  "creativetab.vpb.material_group": "VPB-Material"
+  "entity.minecraft.villager.vpbrecipe.arms_dealer": "Arms Dealer",
+  "entity.minecraft.villager.vpbrecipe.ammunition_dealer": "Arms Dealer II",
+
+  "item.vpbrecipe.hammer": "Hammer",
+  "item.vpbrecipe.glock17_item": "Glock17 Lottery",
+  "item.vpbrecipe.glock18_item": "Glock18 Lottery",
+  "item.vpbrecipe.m1911a1_item": "M1911A1 Lottery",
+  "item.vpbrecipe.m4a1_item": "M4A1 Lottery",
+  "item.vpbrecipe.m4a1mod1_item": "M4A1 MOD I Lottery",
+  "item.vpbrecipe.star15_item": "ST AR-15 Lottery",
+  "item.vpbrecipe.m4sopmodii_item": "M4A1 SOPMOD II Lottery",
+  "item.vpbrecipe.m16a1_item": "M16A1 Lottery",
+  "item.vpbrecipe.scarl_item": "Scar-L Tactical Lottery",
+  "item.vpbrecipe.xm7_item": "XM7 Lottery",
+  "item.vpbrecipe.g36c_item": "G36C Lottery",
+  "item.vpbrecipe.g36k_item": "G36K Lottery",
+  "item.vpbrecipe.aug_item": "AUG Lottery",
+  "item.vpbrecipe.g41_item": "G41 Lottery",
+  "item.vpbrecipe.ak47_item": "AK-47 Lottery",
+  "item.vpbrecipe.ak74_item": "AK-74 Lottery",
+  "item.vpbrecipe.ak12_item": "AK-12 Lottery",
+  "item.vpbrecipe.mp5_item": "MP5 Lottery",
+  "item.vpbrecipe.mp7_item": "MP7 Lottery",
+  "item.vpbrecipe.mp7a2devgru_item": "MP7A2 DEVGRU Lottery",
+  "item.vpbrecipe.ump45_item": "UMP-45 Tactical Lottery",
+  "item.vpbrecipe.tmp_item": "TMP Lottery",
+  "item.vpbrecipe.m950_item": "M950 Lottery",
+  "item.vpbrecipe.sl8_item": "SL8 Lottery",
+  "item.vpbrecipe.mk14ebr_item": "Mk14 EBR Lottery",
+  "item.vpbrecipe.wa2000_item": "WA2000 Lottery",
+  "item.vpbrecipe.xm3_item": "XM3 Lottery",
+  "item.vpbrecipe.c14_item": "C14 Lottery",
+  "item.vpbrecipe.l96a1_item": "L96A1 Lottery",
+  "item.vpbrecipe.gm6lynx_item": "GM6 Lynx Lottery",
+  "item.vpbrecipe.m590_item": "M590 Lottery",
+  "item.vpbrecipe.m870_item": "M870 Lottery",
+  "item.vpbrecipe.spas12_item": "SPAS-12 Lottery",
+  "item.vpbrecipe.m1014_item": "M1014 Lottery",
+  "item.vpbrecipe.aa12_item": "AA12 Lottery",
+  "item.vpbrecipe.citoricxs_item": "Citori CX5 Lottery",
+  "item.vpbrecipe.hs12_item": "HS-12 Lottery",
+  "item.vpbrecipe.aughbar_item": "AUG HBAR Lottery",
+  "item.vpbrecipe.lamg_item": "LAMG Lottery",
+
+  "creativetab.vpb.ore_group": "VPBR-Ore",
+  "creativetab.vpb.material_group": "VPBR-Material",
+  "creativetab.vpb.gun_lottery": "VPBR-Gun Lottery"
 
 
 

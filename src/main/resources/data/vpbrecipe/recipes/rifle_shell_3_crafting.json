@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "material",
+  "pattern": [
+    "113",
+    " 42",
+    "113"
+  ],
+  "key": {
+    "1": {
+      "tag": "forge:ingots/steel"
+    },
+    "2": {
+      "item": "vpbrecipe:rifle_stock_3"
+    },
+    "3": {
+      "item": "vpbrecipe:engineering_plastic_board"
+    },
+    "4": {
+      "item": "vpbrecipe:rifle_barrel"
+    }
+  },
+  "result": {
+    "item": "vpbrecipe:rifle_shell_3"
+  }
+}

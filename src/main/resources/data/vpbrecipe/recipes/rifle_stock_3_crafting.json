@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "material",
+  "pattern": [
+    "111",
+    "112",
+    "  1"
+  ],
+  "key": {
+    "1": {
+      "tag": "forge:ingots/steel"
+    },
+    "2": {
+      "tag": "minecraft:planks"
+    }
+  },
+  "result": {
+    "item": "vpbrecipe:rifle_stock_3"
+  }
+}

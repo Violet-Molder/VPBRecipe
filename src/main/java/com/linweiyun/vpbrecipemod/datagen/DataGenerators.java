@@ -33,7 +33,13 @@ public class DataGenerators {
         CompletableFuture<HolderLookup.Provider> lookupProvider = event.getLookupProvider();
         generator.addProvider(event.includeClient(), new VPBRBlockStateProvider(output, existingFileHelper));
         generator.addProvider(event.includeClient(), new VPBRItemModelProvider(output, existingFileHelper));
-        VPBRBlockTagProvider blockTagGenerator = (VPBRBlockTagProvider)generator.addProvider(event.includeServer(), new VPBRBlockTagProvider(output, lookupProvider, existingFileHelper));
+
+        VPBRBlockTagProvider blockTagGenerator = (VPBRBlockTagProvider)generator.addProvider(event.includeServer(),
+                new VPBRBlockTagProvider(output, lookupProvider, existingFileHelper));
+        generator.addProvider(event.includeClient(), new VPBRItemTagProvider(output, lookupProvider,
+                blockTagGenerator.contentsGetter(), existingFileHelper));
+
         generator.addProvider(event.includeServer(), new VPBRWorldGenProvider(output, lookupProvider));
+        generator.addProvider(event.includeServer(), new VPBRPoiTypeTagsProvider(output, lookupProvider, existingFileHelper));
     }
 }

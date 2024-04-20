@@ -6,9 +6,9 @@
 package com.linweiyun.vpbrecipemod.datagen;
 
 import com.linweiyun.vpbrecipemod.VPBRecipeMod;
-import com.linweiyun.vpbrecipemod.worldgen.LycorisBiomeModifiers;
-import com.linweiyun.vpbrecipemod.worldgen.LycorisOreConfiguredFeatures;
-import com.linweiyun.vpbrecipemod.worldgen.LycorisPlacedFeatures;
+import com.linweiyun.vpbrecipemod.worldgen.VPBRBiomeModifiers;
+import com.linweiyun.vpbrecipemod.worldgen.VPBROreConfiguredFeatures;
+import com.linweiyun.vpbrecipemod.worldgen.VPBRPlacedFeatures;
 import java.util.Set;
 import java.util.concurrent.CompletableFuture;
 import net.minecraft.core.HolderLookup;
@@ -27,8 +27,8 @@ public class VPBRWorldGenProvider extends DatapackBuiltinEntriesProvider {
 
     static {
         BUILDER = (new RegistrySetBuilder())
-                .add(Registries.CONFIGURED_FEATURE, LycorisOreConfiguredFeatures::bootstrap)
-                .add(Registries.PLACED_FEATURE, LycorisPlacedFeatures::bootstrap)
-                .add(Keys.BIOME_MODIFIERS, LycorisBiomeModifiers::bootstrap);
+                .add(Registries.CONFIGURED_FEATURE, VPBROreConfiguredFeatures::bootstrap)
+                .add(Registries.PLACED_FEATURE, VPBRPlacedFeatures::bootstrap)
+                .add(Keys.BIOME_MODIFIERS, VPBRBiomeModifiers::bootstrap);
     }
 }

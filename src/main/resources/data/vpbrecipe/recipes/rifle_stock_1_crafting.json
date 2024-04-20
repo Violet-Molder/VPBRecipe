@@ -9,7 +9,7 @@
   ],
   "key": {
     "1": {
-      "item": "vpbrecipe:steel_ingot"
+      "tag": "forge:ingots/steel"
     },
     "2": {
       "tag": "minecraft:planks"

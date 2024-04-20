@@ -9,7 +9,7 @@
   ],
   "key": {
     "1": {
-      "item": "vpbrecipe:brass_ingot"
+      "tag": "forge:ingots/brass"
     },
     "2": {
       "item": "minecraft:gunpowder"
@@ -17,6 +17,6 @@
   },
   "result": {
     "item": "pointblank:ammo45acp",
-    "count": 8
+    "count": 32
   }
 }

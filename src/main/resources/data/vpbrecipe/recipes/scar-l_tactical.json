@@ -1,0 +1,39 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "material",
+  "pattern": [
+    "567",
+    "418",
+    "273"
+  ],
+  "key": {
+    "1": {
+      "item": "vpbrecipe:rifle_shell_1"
+    },
+    "2": {
+      "item": "vpbrecipe:rifle_magazine_1"
+    },
+    "3": {
+      "item": "vpbrecipe:rifle_grip_1"
+    },
+    "4": {
+      "tag": "forge:ingots/zinc"
+    },
+    "5": {
+      "item": "vpbrecipe:rifle_sight_1"
+    },
+    "6": {
+      "tag": "forge:ingots/aluminium"
+    },
+    "7": {
+      "item": "minecraft:light_gray_dye"
+    },
+    "8": {
+      "item": "minecraft:brown_dye"
+    }
+  },
+  "result": {
+    "item": "pointblank:scarl"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "material",
+  "pattern": [
+    "111",
+    "111",
+    " 2 "
+  ],
+  "key": {
+    "1": {
+      "item": "minecraft:cobbled_deepslate"
+    },
+    "2": {
+      "tag": "minecraft:planks"
+    }
+  },
+  "result": {
+    "item": "vpbrecipe:hammer",
+    "count": 1
+  }
+}

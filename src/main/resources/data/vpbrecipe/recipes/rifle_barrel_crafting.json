@@ -8,7 +8,7 @@
   ],
   "key": {
     "a": {
-      "item": "vpbrecipe:steel_ingot"
+      "tag": "forge:ingots/steel"
     }
   },
   "result": {

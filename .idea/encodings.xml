@@ -1,6 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="Encoding">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/src/main/java/com/linweiyun/vpbrecipemod/VPBRTags.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/linweiyun/vpbrecipemod/datagen/VPBRItemTagProvider.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/linweiyun/vpbrecipemod/recipetype/VRecipeType.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/linweiyun/vpbrecipemod/screen/Lv1InjectingMagicAltarMenu.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/linweiyun/vpbrecipemod/screen/Lv1InjectingMagicAltarStationScreen.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/linweiyun/vpbrecipemod/screen/LycorisMenuType.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/linweiyun/vpbrecipemod/test/blockentity/Lv1InjectingMagicAltarCore.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/linweiyun/vpbrecipemod/test/blockentity/Lv1InjectingMagicCoreAltarEntity.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/linweiyun/vpbrecipemod/test/blockentity/TestEntitiyRender.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/linweiyun/vpbrecipemod/test/recipetype/Lv2InjectingMagicAltarRecipe.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/linweiyun/vpbrecipemod/test/recipetype/LycorisRecipe.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/linweiyun/vpbrecipemod/test/screen/Lv1InjectingMagicAltarMenu.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/linweiyun/vpbrecipemod/test/screen/Lv1InjectingMagicAltarStationScreen.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/linweiyun/vpbrecipemod/test/screen/LycorisMenuType.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/assets/pointblank/textures/gui" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/assets/vpbrecipe/textures/gui/weapon_box.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/data/vpbrecipe/loot_tables/blocks/ammunition_assembly_station.json" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/data/vpbrecipe/loot_tables/blocks/firearm_assembly_station.json" charset="GBK" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>

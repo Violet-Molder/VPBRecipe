@@ -1,0 +1,73 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "vpbrecipe:item/hammer_stick",
+		"3": "vpbrecipe:item/hammer_head",
+		"particle": "vpbrecipe:item/hammer_stick"
+	},
+	"elements": [
+		{
+			"from": [6.50157, 5.00157, 3.5],
+			"to": [12.50157, 10.00157, 12.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [9.50157, 3, 7.99895]},
+			"faces": {
+				"north": {"uv": [0, 0, 9, 9], "rotation": 270, "texture": "#3"},
+				"east": {"uv": [8, 2, 15, 16], "rotation": 270, "texture": "#3"},
+				"south": {"uv": [7, 7, 16, 16], "rotation": 90, "texture": "#3"},
+				"west": {"uv": [1, 2, 8, 16], "rotation": 270, "texture": "#3"},
+				"up": {"uv": [2, 7, 16, 16], "rotation": 90, "texture": "#3"},
+				"down": {"uv": [2, 0, 16, 9], "rotation": 90, "texture": "#3"}
+			}
+		},
+		{
+			"from": [8.50157, -4.50157, 6.9979],
+			"to": [10.50157, 5.49843, 8.9979],
+			"rotation": {"angle": 0, "axis": "y", "origin": [9.50157, 3, 7.99895]},
+			"faces": {
+				"north": {"uv": [9, 0, 13, 12], "texture": "#0"},
+				"east": {"uv": [4, 0, 8, 12], "texture": "#0"},
+				"south": {"uv": [12, 4, 16, 16], "rotation": 180, "texture": "#0"},
+				"west": {"uv": [0, 4, 4, 16], "texture": "#0"},
+				"up": {"uv": [0, 0, 1, 1], "rotation": 90, "texture": "#missing"},
+				"down": {"uv": [0, 2, 4, 6], "rotation": 90, "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [-0.5, 4.5, 1],
+			"scale": [0.55, 0.55, 0.55]
+		},
+		"thirdperson_lefthand": {
+			"translation": [0.5, 4.75, 1],
+			"scale": [0.55, 0.55, 0.55]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, -90, 25],
+			"translation": [0.38, 4.45, 1.13],
+			"scale": [0.68, 0.68, 0.68]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, -90, 25],
+			"translation": [1.13, 5.2, 1.13],
+			"scale": [0.68, 0.68, 0.68]
+		},
+		"ground": {
+			"translation": [0, 2, 0],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"gui": {
+			"rotation": [31, 140, 0],
+			"translation": [1.25, 2.5, 0],
+			"scale": [0.8, 0.8, 0.8]
+		},
+		"head": {
+			"rotation": [0, 180, 0],
+			"translation": [1.5, 13, 0.25]
+		},
+		"fixed": {
+			"rotation": [0, 180, 0],
+			"translation": [1.25, 4.25, 0]
+		}
+	}
+}

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "material",
+  "pattern": [
+    " 11",
+    "322",
+    " 11"
+  ],
+  "key": {
+    "1": {
+      "item": "minecraft:copper_ingot"
+    },
+    "2": {
+      "item": "minecraft:gunpowder"
+    },
+    "3": {
+      "tag": "forge:ingots/steel"
+    }
+  },
+  "result": {
+    "item": "pointblank:ammo46",
+    "count": 32
+  }
+}

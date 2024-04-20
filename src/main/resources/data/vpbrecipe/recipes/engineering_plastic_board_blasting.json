@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "group": "material",
+  "ingredient": {
+    "item": "vpbrecipe:oil_shale"
+  },
+  "result": "vpbrecipe:engineering_plastic_board",
+  "experience": 2,
+  "cookingtime": 150
+}

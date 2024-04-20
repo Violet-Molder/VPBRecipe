@@ -6,6 +6,7 @@
 package com.linweiyun.vpbrecipemod.datagen;
 
 import com.linweiyun.vpbrecipemod.VPBRecipeMod;
+import com.linweiyun.vpbrecipemod.block.VPBRBlock;
 import com.linweiyun.vpbrecipemod.block.VPBROre;
 import java.util.concurrent.CompletableFuture;
 import net.minecraft.core.HolderLookup;
@@ -29,21 +30,44 @@ public class VPBRBlockTagProvider extends BlockTagsProvider {
                         VPBROre.ALUMINIUM_ORE.get(),
                         VPBROre.ZINC_ORE.get(),
                         VPBROre.DEEPSLATE_ZINC_ORE.get(),
-                        VPBROre.DEEPSLATE_ALUMINIUM_ORE.get()
+                        VPBROre.DEEPSLATE_ALUMINIUM_ORE.get(),
+                        VPBROre.SALTPETER_ORE.get(),
+                        VPBROre.DEEPSLATE_SALTPETER_ORE.get(),
+                        VPBROre.SULFUR_ORE.get(),
+                        VPBROre.DEEPSLATE_SULFUR_ORE.get(),
+                        VPBROre.OIL_SHALE_ORE.get()
+
                 );
         this.tag(BlockTags.NEEDS_IRON_TOOL)
                 .add(
                         VPBROre.ALUMINIUM_ORE.get(),
                         VPBROre.ZINC_ORE.get(),
                         VPBROre.DEEPSLATE_ZINC_ORE.get(),
-                        VPBROre.DEEPSLATE_ALUMINIUM_ORE.get()
+                        VPBROre.DEEPSLATE_ALUMINIUM_ORE.get(),
+                        VPBROre.SALTPETER_ORE.get(),
+                        VPBROre.DEEPSLATE_SALTPETER_ORE.get(),
+                        VPBROre.SULFUR_ORE.get(),
+                        VPBROre.DEEPSLATE_SULFUR_ORE.get(),
+                        VPBROre.OIL_SHALE_ORE.get()
                 );
         this.tag(BlockTags.MINEABLE_WITH_PICKAXE)
                 .add(
                         VPBROre.ALUMINIUM_ORE.get(),
                         VPBROre.ZINC_ORE.get(),
                         VPBROre.DEEPSLATE_ZINC_ORE.get(),
-                        VPBROre.DEEPSLATE_ALUMINIUM_ORE.get()
+                        VPBROre.DEEPSLATE_ALUMINIUM_ORE.get(),
+                        VPBROre.SALTPETER_ORE.get(),
+                        VPBROre.DEEPSLATE_SALTPETER_ORE.get(),
+                        VPBROre.SULFUR_ORE.get(),
+                        VPBROre.DEEPSLATE_SULFUR_ORE.get(),
+                        VPBROre.OIL_SHALE_ORE.get()
+
         );
+        this.tag(BlockTags.MINEABLE_WITH_AXE)
+                .add(
+                        VPBRBlock.AMMUNITION_ASSEMBLY_STATION.get(),
+                        VPBRBlock.FIREARM_ASSEMBLY_STATION.get()
+                );
+
     }
 }

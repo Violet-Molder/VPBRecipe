@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "material",
+  "ingredients": [
+    {
+      "item": "vpbrecipe:wa2000_item"
+    }
+  ],
+  "result": {
+    "item": "pointblank:wa2000"
+  }
+}

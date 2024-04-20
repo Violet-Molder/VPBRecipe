@@ -3,19 +3,13 @@
   "category": "misc",
   "group": "material",
   "pattern": [
-    "121",
-    "3 3",
-    "121"
+    "11 ",
+    "11 ",
+    "   "
   ],
   "key": {
     "1": {
-      "tag": "minecraft:planks"
-    },
-    "2": {
-      "item": "vpbrecipe:steel_ingot"
-    },
-    "3": {
-      "item": "minecraft:slime_ball"
+      "item": "vpbrecipe:engineering_plastic_board"
     }
   },
   "result": {

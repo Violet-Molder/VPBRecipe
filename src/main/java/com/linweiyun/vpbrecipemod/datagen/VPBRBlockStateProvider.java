@@ -22,6 +22,12 @@ public class VPBRBlockStateProvider extends BlockStateProvider {
         this.blockWithItem(VPBROre.ZINC_ORE);
         this.blockWithItem(VPBROre.DEEPSLATE_ALUMINIUM_ORE);
         this.blockWithItem(VPBROre.DEEPSLATE_ZINC_ORE);
+        this.blockWithItem(VPBROre.SALTPETER_ORE);
+        this.blockWithItem(VPBROre.DEEPSLATE_SALTPETER_ORE);
+        this.blockWithItem(VPBROre.SULFUR_ORE);
+        this.blockWithItem(VPBROre.DEEPSLATE_SULFUR_ORE);
+        this.blockWithItem(VPBROre.OIL_SHALE_ORE);
+        this.blockWithItem(VPBROre.INDUSTRIAL_PLANKS);
     }
 
     private void blockWithItem(RegistryObject<Block> blockRegistryObject) {

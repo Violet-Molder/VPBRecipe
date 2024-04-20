@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "material",
+  "pattern": [
+    " 1 ",
+    "2 3",
+    "   "
+  ],
+  "key": {
+    "1": {
+      "item": "vpbrecipe:rifle_shell_3"
+    },
+    "2": {
+      "item": "vpbrecipe:rifle_magazine_1"
+    },
+    "3": {
+      "item": "vpbrecipe:rifle_grip_1"
+    }
+  },
+  "result": {
+    "item": "pointblank:m16a1"
+  }
+}

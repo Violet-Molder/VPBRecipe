@@ -3,19 +3,22 @@
   "category": "misc",
   "group": "material",
   "pattern": [
-    "121",
-    "323",
-    "121"
+    "113",
+    "114",
+    "2  "
   ],
   "key": {
     "1": {
-      "tag": "minecraft:planks"
+      "tag": "forge:ingots/steel"
     },
     "2": {
-      "item": "vpbrecipe:steel_ingot"
+      "item": "vpbrecipe:engineering_plastic_board"
     },
     "3": {
-      "item": "minecraft:slime_ball"
+      "item": "minecraft:brown_dye"
+    },
+    "4": {
+      "item": "minecraft:light_gray_dye"
     }
   },
   "result": {

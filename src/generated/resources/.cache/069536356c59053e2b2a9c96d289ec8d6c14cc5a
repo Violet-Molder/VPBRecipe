@@ -1,0 +1,5 @@
+// 1.20.1	2024-04-04T14:47:02.1776379	Tags for minecraft:item mod id vpbrecipe
+dac47681550e2905f2bc80073b5bec92f3c6029e data/forge/tags/items/ingots/aluminium.json
+9f3116dcb57bf587843b670685ed359c966629e4 data/forge/tags/items/ingots/brass.json
+0722eeebc8df599c8f0463a201ca73d208d11b99 data/forge/tags/items/ingots/steel.json
+0eb75d89d10442380d2093a4ea94edf338f43363 data/forge/tags/items/ingots/zinc.json

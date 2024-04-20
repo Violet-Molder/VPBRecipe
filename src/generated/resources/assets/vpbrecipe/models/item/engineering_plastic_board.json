@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "vpbrecipe:item/engineering_plastic_board"
+  }
+}

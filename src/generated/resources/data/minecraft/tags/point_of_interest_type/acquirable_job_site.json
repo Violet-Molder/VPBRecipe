@@ -1,0 +1,12 @@
+{
+  "values": [
+    {
+      "id": "vpbrecipe:arms_dealer_poi",
+      "required": false
+    },
+    {
+      "id": "vpbrecipe:ammunition_dealer_poi",
+      "required": false
+    }
+  ]
+}

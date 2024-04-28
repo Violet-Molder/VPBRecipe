@@ -21,18 +21,6 @@ public class VPBRRegistry {
     public VPBRRegistry() {
     }
 
-    public static <T extends Block> RegistryObject<T> registerFireproofBlock(String name, DeferredRegister<Block> RBlock, Supplier<T> block) {
-        RegistryObject<T> blockObject = RBlock.register(name, block);
-        registerFireproofBlcokItem(name, blockObject);
-        return blockObject;
-    }
-
-    private static <T extends Block> RegistryObject<Item> registerFireproofBlcokItem(String name, RegistryObject<T> block) {
-        return VPBROreItem.ITEMS.register(name, () -> {
-            return new BlockItem((Block)block.get(), (new Item.Properties()).fireResistant());
-        });
-    }
-
     public static <T extends Block> RegistryObject<T> registerBlock(String name, DeferredRegister<Block> RBlock, Supplier<T> block) {
         RegistryObject<T> blockObject = RBlock.register(name, block);
         registerBlcokItem(name, blockObject);

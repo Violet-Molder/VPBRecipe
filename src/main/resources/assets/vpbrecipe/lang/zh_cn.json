@@ -1,8 +1,13 @@
 {
-  "gui.vpbrecipe.weapon_box.button_que_ren":"确认",
-  "gui.vpbrecipe.weapon_box.label_weapon":"您当前选择的武器是：",
 
-  "item.vpbrecipe.pistol_weapon_box": "手枪武器箱",
+  "item.vpbrecipe.weapon_box_pistol": "手枪武器箱",
+  "item.vpbrecipe.weapon_box_sub_gun": "冲锋枪武器箱",
+  "item.vpbrecipe.weapon_box_rifle": "步枪武器箱",
+  "item.vpbrecipe.weapon_box_sniper_rifle": "狙击步枪武器箱",
+  "item.vpbrecipe.weapon_box_shotgun": "霰弹枪武器箱",
+  "item.vpbrecipe.weapon_box_machine_gun": "机枪武器箱",
+  "item.vpbrecipe.weapon_box_rocket": "重装武器箱",
+
 
 
   "item.vpbrecipe.model_gun": "模型枪",
@@ -52,6 +57,7 @@
   "block.vpbrecipe.firearm_assembly_station": "枪械装配台",
   "block.vpbrecipe.ammunition_assembly_station": "弹药装配台",
   "block.vpbrecipe.industrial_planks": "工业板材",
+  "block.vpbrecipe.weapon_crafting_table": "武器合成台",
 
   "entity.minecraft.villager.vpbrecipe.arms_dealer": "军火商",
   "entity.minecraft.villager.vpbrecipe.ammunition_dealer": "军火商 II",
@@ -59,12 +65,17 @@
   "item.vpbrecipe.hammer": "锤子",
   "item.vpbrecipe.glock17_item": "Glock17 兑换券",
   "item.vpbrecipe.glock18_item": "Glock18 兑换券",
+  "item.vpbrecipe.m9_item": "M9 兑换券",
   "item.vpbrecipe.m1911a1_item": "M1911A1 兑换券",
+  "item.vpbrecipe.tti_viper_item": "TTI Viper 兑换券",
+  "item.vpbrecipe.p30l_item": "P30L 兑换券",
+  "item.vpbrecipe.rhino_item": "Rhino 兑换券",
   "item.vpbrecipe.m4a1_item": "M4A1 兑换券",
   "item.vpbrecipe.m4a1mod1_item": "M4A1 MOD I 兑换券",
   "item.vpbrecipe.star15_item": "ST AR-15 兑换券",
   "item.vpbrecipe.m4sopmodii_item": "M4A1 SOPMOD II 兑换券",
   "item.vpbrecipe.m16a1_item": "M16A1 兑换券",
+  "item.vpbrecipe.hk416_item": "HK416 兑换券",
   "item.vpbrecipe.scarl_item": "Scar-L Tactical 兑换券",
   "item.vpbrecipe.xm7_item": "XM7 兑换券",
   "item.vpbrecipe.g36c_item": "G36C 兑换券",
@@ -82,6 +93,7 @@
   "item.vpbrecipe.m950_item": "M950 兑换券",
   "item.vpbrecipe.sl8_item": "SL8 兑换券",
   "item.vpbrecipe.mk14ebr_item": "Mk14 EBR 兑换券",
+  "item.vpbrecipe.uar10_item": "UAR-10 兑换券",
   "item.vpbrecipe.wa2000_item": "WA2000 兑换券",
   "item.vpbrecipe.xm3_item": "XM3 兑换券",
   "item.vpbrecipe.c14_item": "C14 兑换券",
@@ -96,6 +108,14 @@
   "item.vpbrecipe.hs12_item": "HS-12 兑换券",
   "item.vpbrecipe.aughbar_item": "AUG HBAR 兑换券",
   "item.vpbrecipe.lamg_item": "LAMG 兑换券",
+  "item.vpbrecipe.mk48_item": "Mk48 兑换券",
+  "item.vpbrecipe.m249_item": "M249 兑换券",
+  "item.vpbrecipe.m32mgl_item": "Milkor MGL 兑换券",
+  "item.vpbrecipe.smaw_item": "Mk-153 兑换券",
+  "item.vpbrecipe.at4_item": "AT4 兑换券",
+  "item.vpbrecipe.javelin_item": "FGM-148 兑换券",
+  "item.vpbrecipe.m134minigun_item": "M134 兑换券",
+
 
   "creativetab.vpb.ore_group": "VPBR-矿物",
   "creativetab.vpb.material_group": "VPBR-配件",

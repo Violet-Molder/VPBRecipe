@@ -46,7 +46,7 @@ public class VPBRecipeMod {
         VPBRItemGroups.register(modEventBus);
         VPBRInit.registerVPBRMenuType(modEventBus);
         VPBRInit.registerVPBRBlockEntities(modEventBus);
-        VPBRInit.registerVPBRRecipes(modEventBus);
+        VPBRConfing.register();
 
     }
 

@@ -27,15 +27,6 @@ import net.minecraftforge.registries.RegistryObject;
 public class VPBRBlock extends Block {
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, VPBRecipeMod.MOD_ID);
 
-    public static final RegistryObject<Block> FIREARM_ASSEMBLY_STATION = VPBRRegistry.registerBlock("firearm_assembly_station",
-            BLOCKS, () -> new VPBRBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)
-                    .noOcclusion()
-                    .strength(1f)));
-    public static final RegistryObject<Block> AMMUNITION_ASSEMBLY_STATION = VPBRRegistry.registerBlock("ammunition_assembly_station",
-            BLOCKS, () -> new VPBRBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)
-                    .noOcclusion()
-                    .strength(1f)));
-
     public static final RegistryObject<Block> WEAPON_CRAFTING_TABLE = VPBRRegistry.registerBlock("weapon_crafting_table",
             BLOCKS, () -> new WeaponCraftingTable(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)
                     .noOcclusion()

@@ -12,10 +12,8 @@ import com.linweiyun.vpbrecipemod.item.VPBRGunItem;
 import com.linweiyun.vpbrecipemod.item.VPBRMaterial;
 import com.linweiyun.vpbrecipemod.item.VPBROreItem;
 import com.linweiyun.vpbrecipemod.item.WeaponBox.WeaponBox;
-import com.linweiyun.vpbrecipemod.recipetype.VRecipeType;
 import com.linweiyun.vpbrecipemod.screen.VPBRGui;
 import com.linweiyun.vpbrecipemod.screen.WeaponCraftingTableScreen;
-import com.linweiyun.vpbrecipemod.villager.VPBRecipeVillagers;
 import net.minecraft.client.gui.screens.MenuScreens;
 import net.minecraftforge.eventbus.api.IEventBus;
 
@@ -36,7 +34,6 @@ public class VPBRInit {
     }
 
     public static void registerVPBRVillagers(IEventBus eventBus) {
-        VPBRecipeVillagers.register(eventBus);
     }
 
     public static void registerVPBRBlockEntities(IEventBus eventBus) {
@@ -44,7 +41,6 @@ public class VPBRInit {
     }
 
     public static void registerVPBRRecipes(IEventBus eventBus) {
-        VRecipeType.register(eventBus);
     }
 
     public static void registerVPBRMenuType(IEventBus eventBus) {

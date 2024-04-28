@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "material",
+  "pattern": [
+    " 23",
+    "122",
+    " 23"
+  ],
+  "key": {
+    "1": {
+      "tag": "forge:ingots/aluminium"
+    },
+    "2": {
+      "item": "minecraft:gunpowder"
+    },
+    "3": {
+      "tag": "forge:ingots/zinc"
+    }
+  },
+  "result": {
+    "item": "pointblank:smaw_rocket",
+    "count": 16
+  }
+}

@@ -74,7 +74,6 @@ public class WeaponCraftingTable extends BaseEntityBlock {
         super.use(state, level, pos, entity, hand, res);
 
         if (entity instanceof ServerPlayer player) {
-            System.out.println("成功了");
             NetworkHooks.openScreen(player, new MenuProvider() {
                 @Override
                 public Component getDisplayName() {
@@ -94,15 +93,10 @@ public class WeaponCraftingTable extends BaseEntityBlock {
         return tileEntity instanceof MenuProvider menuProvider ? menuProvider : null;
     }
 
+    @Nullable
     @Override
-    public boolean triggerEvent(BlockState state, Level world, BlockPos pos, int eventID, int eventParam) {
-        super.triggerEvent(state, world, pos, eventID, eventParam);
-        BlockEntity blockEntity = world.getBlockEntity(pos);
-        return blockEntity == null ? false : blockEntity.triggerEvent(eventID, eventParam);
+    public <T extends BlockEntity> BlockEntityTicker<T> getTicker(Level level, BlockState state, BlockEntityType<T> type) {
+        return createTickerHelper(type, VBlockEntity.WEAPON_CRAFTING_TABLE_ENTITY.get(),
+                WeaponCraftingTableEntity::tick);
     }
-    @Override
-    public boolean hasAnalogOutputSignal(BlockState state) {
-        return true;
-    }
-
 }

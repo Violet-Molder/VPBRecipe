@@ -82,14 +82,6 @@ public class WeaponCraftingTableScreen extends AbstractContainerScreen<WeaponCra
     // 重写标签渲染方法，绘制指定文本标签
     @Override
     protected void renderLabels(GuiGraphics guiGraphics, int mouseX, int mouseY) {
-        guiGraphics.drawString(this.font, Component.translatable("gui.vpbrecipe.weapon_box.label_weapon"), 33, 89, -12829636, false);
-        //if (WeaponCraftingTbaleMenu.getOutStack() == null) {
-        //    // 可以在此处添加处理逻辑，如打印日志、忽略操作等
-        //    return;
-        //}
-        //if (!WeaponCraftingTbaleMenu.getOutStack().isEmpty()){
-        //    guiGraphics.drawString(this.font, Component.translatable(WeaponCraftingTbaleMenu.getOutStack().getItem().getDescriptionId()), 60, 107, -12829636, false);
-        //}
 
     }
 

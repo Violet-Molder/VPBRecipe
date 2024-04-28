@@ -17,8 +17,8 @@
     <file url="file://$PROJECT_DIR$/src/main/java/com/linweiyun/vpbrecipemod/test/screen/LycorisMenuType.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/main/resources/assets/pointblank/textures/gui" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/main/resources/assets/vpbrecipe/textures/gui/weapon_box.png" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/src/main/resources/data/vpbrecipe/loot_tables/blocks/ammunition_assembly_station.json" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/main/resources/data/vpbrecipe/loot_tables/blocks/firearm_assembly_station.json" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/data/vpbrecipe/loot_tables/blocks/weapon_crafting_table.json" charset="GBK" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>

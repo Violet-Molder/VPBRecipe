@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "material",
+  "pattern": [
+    "11 ",
+    "11 ",
+    "   "
+  ],
+  "key": {
+    "1": {
+      "item": "vpbrecipe:engineering_plastic_board"
+    }
+  },
+  "result": {
+    "item": "vpbrecipe:weapon_box_sub_gun"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "material",
+  "pattern": [
+    "111",
+    "111",
+    "   "
+  ],
+  "key": {
+    "1": {
+      "tag": "forge:ingots/brass"
+    }
+  },
+  "result": {
+    "item": "vpbrecipe:weapon_box_sniper_rifle"
+  }
+}

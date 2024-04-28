@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "material",
+  "pattern": [
+    "123",
+    "122",
+    "123"
+  ],
+  "key": {
+    "1": {
+      "tag": "forge:ingots/steel"
+    },
+    "2": {
+      "item": "minecraft:gunpowder"
+    },
+    "3": {
+      "tag": "forge:ingots/aluminium"
+    }
+  },
+  "result": {
+    "item": "pointblank:javelin_rocket",
+    "count": 16
+  }
+}

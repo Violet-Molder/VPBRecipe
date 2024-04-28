@@ -48,11 +48,14 @@ public class VPBRItemGroups {
                         pOutput.accept(VPBROre.SULFUR_ORE.get());
                         pOutput.accept(VPBROre.DEEPSLATE_SULFUR_ORE.get());
                         pOutput.accept(VPBROre.OIL_SHALE_ORE.get());
-                        pOutput.accept(VPBROre.INDUSTRIAL_PLANKS.get());
-                        pOutput.accept(VPBROreItem.WML.get());
 
-
-                        pOutput.accept(WeaponBox.WEAPON_BOX.get());
+                        pOutput.accept(WeaponBox.PISTOL_WEAPON_BOX.get());
+                        pOutput.accept(WeaponBox.SUB_GUN_WEAPON_BOX.get());
+                        pOutput.accept(WeaponBox.RIFLE_WEAPON_BOX.get());
+                        pOutput.accept(WeaponBox.SNIPER_RIFLE_WEAPON_BOX.get());
+                        pOutput.accept(WeaponBox.SHOTGUN_WEAPON_BOX.get());
+                        pOutput.accept(WeaponBox.MACHINE_GUN_WEAPON_BOX.get());
+                        pOutput.accept(WeaponBox.ROCKET_WEAPON_BOX.get());
                         pOutput.accept(VPBRBlock.WEAPON_CRAFTING_TABLE.get());
 
                     }).
@@ -61,8 +64,6 @@ public class VPBRItemGroups {
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(VPBRMaterial.GLOCK_17_SHELL.get()))
                     .title(Component.translatable(VPB_MATERIAL_GROUP))
                     .displayItems((pParameters, pOutput) -> {
-                        pOutput.accept(VPBRBlock.FIREARM_ASSEMBLY_STATION.get());
-                        pOutput.accept(VPBRBlock.AMMUNITION_ASSEMBLY_STATION.get());
                         pOutput.accept(VPBRMaterial.RIFLE_BARREL.get());
                         pOutput.accept(VPBRMaterial.PISTOL_BARREL.get());
                         pOutput.accept(VPBRMaterial.GLOCK_17_SHELL.get());
@@ -94,12 +95,17 @@ public class VPBRItemGroups {
                     .displayItems((pParameters, pOutput) -> {
                         pOutput.accept(VPBRGunItem.GLOCK17_ITEM.get());
                         pOutput.accept(VPBRGunItem.GLOCK18_ITEM.get());
+                        pOutput.accept(VPBRGunItem.M9_ITEM.get());
                         pOutput.accept(VPBRGunItem.M1911A1_ITEM.get());
+                        pOutput.accept(VPBRGunItem.TTI_VIPER_ITEM.get());
+                        pOutput.accept(VPBRGunItem.P30L_ITEM.get());
+                        pOutput.accept(VPBRGunItem.RHINO_ITEM.get());
                         pOutput.accept(VPBRGunItem.M4A1_ITEM.get());
                         pOutput.accept(VPBRGunItem.M4A1MODI_TEM.get());
                         pOutput.accept(VPBRGunItem.STAR15_ITEM.get());
                         pOutput.accept(VPBRGunItem.M4SOPMODII_ITEM.get());
                         pOutput.accept(VPBRGunItem.M16A1_ITEM.get());
+                        pOutput.accept(VPBRGunItem.HK416_ITEM.get());
                         pOutput.accept(VPBRGunItem.SCARL_ITEM.get());
                         pOutput.accept(VPBRGunItem.XM7_ITEM.get());
                         pOutput.accept(VPBRGunItem.G36C_ITEM.get());
@@ -117,6 +123,7 @@ public class VPBRItemGroups {
                         pOutput.accept(VPBRGunItem.M950_ITEM.get());
                         pOutput.accept(VPBRGunItem.SL8_ITEM.get());
                         pOutput.accept(VPBRGunItem.MK14EBR_ITEM.get());
+                        pOutput.accept(VPBRGunItem.UAR10_ITEM.get());
                         pOutput.accept(VPBRGunItem.WA2000_ITEM.get());
                         pOutput.accept(VPBRGunItem.XM3_ITEM.get());
                         pOutput.accept(VPBRGunItem.C14_ITEM.get());
@@ -131,6 +138,15 @@ public class VPBRItemGroups {
                         pOutput.accept(VPBRGunItem.HS12_ITEM.get());
                         pOutput.accept(VPBRGunItem.AUGHBAR_ITEM.get());
                         pOutput.accept(VPBRGunItem.LAMG_ITEM.get());
+
+// 新增的枪械物品
+                        pOutput.accept(VPBRGunItem.MK48_ITEM.get());
+                        pOutput.accept(VPBRGunItem.M249_ITEM.get());
+                        pOutput.accept(VPBRGunItem.M32MGL_ITEM.get());
+                        pOutput.accept(VPBRGunItem.SMAW_ITEM.get());
+                        pOutput.accept(VPBRGunItem.AT4_ITEM.get());
+                        pOutput.accept(VPBRGunItem.JAVELIN_ITEM.get());
+                        pOutput.accept(VPBRGunItem.M134MINIGUN_ITEM.get());
                     })
                     .build());
 

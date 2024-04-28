@@ -15,7 +15,6 @@ import net.minecraftforge.registries.RegistryObject;
 
 public class VPBROreItem {
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, VPBRecipeMod.MOD_ID);
-    public static final DeferredRegister<Item> ITEMS_2 = DeferredRegister.create(ForgeRegistries.ITEMS, "pointblank");
     public static final RegistryObject<Item> RAW_ZINC;
     public static final RegistryObject<Item> ZINC_INGOT;
     public static final RegistryObject<Item> RAW_ALUMINIUM;
@@ -42,9 +41,6 @@ public class VPBROreItem {
         return new Item(new Item.Properties());
     });
 
-    public static final RegistryObject<Item> WML = ITEMS_2.register("wml", () -> {
-        return new Item(new Item.Properties());
-    });
 
 
 
@@ -55,7 +51,6 @@ public class VPBROreItem {
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
-        ITEMS_2.register(eventBus);
     }
 
     static {

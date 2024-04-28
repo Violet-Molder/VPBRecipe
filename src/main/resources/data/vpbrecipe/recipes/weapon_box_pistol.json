@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "material",
+  "pattern": [
+    "12 ",
+    "21 ",
+    "   "
+  ],
+  "key": {
+    "1": {
+      "item": "minecraft:iron_ingot"
+    },
+    "2": {
+      "tag": "forge:ingots/steel"
+    }
+  },
+  "result": {
+    "item": "vpbrecipe:weapon_box_pistol"
+  }
+}

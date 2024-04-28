@@ -11,12 +11,17 @@ public class VPBRGunItem {
     public static final DeferredRegister<Item> ITEMS;
     public static final RegistryObject<Item> GLOCK17_ITEM;
     public static final RegistryObject<Item> GLOCK18_ITEM;
+    public static final RegistryObject<Item> M9_ITEM;
     public static final RegistryObject<Item> M1911A1_ITEM;
+    public static final RegistryObject<Item> TTI_VIPER_ITEM;
+    public static final RegistryObject<Item> P30L_ITEM;
+    public static final RegistryObject<Item> RHINO_ITEM;
     public static final RegistryObject<Item> M4A1_ITEM;
     public static final RegistryObject<Item> M4A1MODI_TEM;
     public static final RegistryObject<Item> STAR15_ITEM;
     public static final RegistryObject<Item> M4SOPMODII_ITEM;
     public static final RegistryObject<Item> M16A1_ITEM;
+    public static final RegistryObject<Item> HK416_ITEM;
     public static final RegistryObject<Item> SCARL_ITEM;
     public static final RegistryObject<Item> XM7_ITEM;
     public static final RegistryObject<Item> G36C_ITEM;
@@ -34,6 +39,7 @@ public class VPBRGunItem {
     public static final RegistryObject<Item> M950_ITEM;
     public static final RegistryObject<Item> SL8_ITEM;
     public static final RegistryObject<Item> MK14EBR_ITEM;
+    public static final RegistryObject<Item> UAR10_ITEM;
     public static final RegistryObject<Item> WA2000_ITEM;
     public static final RegistryObject<Item> XM3_ITEM;
     public static final RegistryObject<Item> C14_ITEM;
@@ -50,6 +56,16 @@ public class VPBRGunItem {
     public static final RegistryObject<Item> LAMG_ITEM;
 
 
+    public static final RegistryObject<Item> MK48_ITEM;
+    public static final RegistryObject<Item> M249_ITEM;
+    public static final RegistryObject<Item> M32MGL_ITEM;
+    public static final RegistryObject<Item> SMAW_ITEM;
+    public static final RegistryObject<Item> AT4_ITEM;
+    public static final RegistryObject<Item> JAVELIN_ITEM;
+    public static final RegistryObject<Item> M134MINIGUN_ITEM;
+
+
+
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
@@ -63,7 +79,19 @@ public class VPBRGunItem {
         GLOCK18_ITEM = ITEMS.register("glock18_item", () -> {
             return new Item(new Item.Properties().stacksTo(1));
         });
+        M9_ITEM = ITEMS.register("m9_item", () -> {
+            return new Item(new Item.Properties().stacksTo(1));
+        });
         M1911A1_ITEM = ITEMS.register("m1911a1_item", () -> {
+            return new Item(new Item.Properties().stacksTo(1));
+        });
+        TTI_VIPER_ITEM = ITEMS.register("tti_viper_item", () -> {
+            return new Item(new Item.Properties().stacksTo(1));
+        });
+        P30L_ITEM = ITEMS.register("p30l_item", () -> {
+            return new Item(new Item.Properties().stacksTo(1));
+        });
+        RHINO_ITEM = ITEMS.register("rhino_item", () -> {
             return new Item(new Item.Properties().stacksTo(1));
         });
         M4A1_ITEM = ITEMS.register("m4a1_item", () -> {
@@ -79,6 +107,9 @@ public class VPBRGunItem {
             return new Item(new Item.Properties().stacksTo(1));
         });
         M16A1_ITEM = ITEMS.register("m16a1_item", () -> {
+            return new Item(new Item.Properties().stacksTo(1));
+        });
+        HK416_ITEM = ITEMS.register("hk416_item", () -> {
             return new Item(new Item.Properties().stacksTo(1));
         });
         SCARL_ITEM = ITEMS.register("scarl_item", () -> {
@@ -132,6 +163,9 @@ public class VPBRGunItem {
         MK14EBR_ITEM = ITEMS.register("mk14ebr_item", () -> {
             return new Item(new Item.Properties().stacksTo(1));
         });
+        UAR10_ITEM = ITEMS.register("uar10_item", () -> {
+            return new Item(new Item.Properties().stacksTo(1));
+        });
         WA2000_ITEM = ITEMS.register("wa2000_item", () -> {
             return new Item(new Item.Properties().stacksTo(1));
         });
@@ -172,6 +206,27 @@ public class VPBRGunItem {
             return new Item(new Item.Properties().stacksTo(1));
         });
         LAMG_ITEM = ITEMS.register("lamg_item", () -> {
+            return new Item(new Item.Properties().stacksTo(1));
+        });
+        MK48_ITEM = ITEMS.register("mk48_item", () -> {
+            return new Item(new Item.Properties().stacksTo(1));
+        });
+        M249_ITEM = ITEMS.register("m249_item", () -> {
+            return new Item(new Item.Properties().stacksTo(1));
+        });
+        M32MGL_ITEM = ITEMS.register("m32mgl_item", () -> {
+            return new Item(new Item.Properties().stacksTo(1));
+        });
+        SMAW_ITEM = ITEMS.register("smaw_item", () -> {
+            return new Item(new Item.Properties().stacksTo(1));
+        });
+        AT4_ITEM = ITEMS.register("at4_item", () -> {
+            return new Item(new Item.Properties().stacksTo(1));
+        });
+        JAVELIN_ITEM = ITEMS.register("javelin_item", () -> {
+            return new Item(new Item.Properties().stacksTo(1));
+        });
+        M134MINIGUN_ITEM = ITEMS.register("m134minigun_item", () -> {
             return new Item(new Item.Properties().stacksTo(1));
         });
 

@@ -23,17 +23,11 @@ public class Hummer extends Item {
             BlockState state = pContext.getLevel().getBlockState(pos);
             if (state.is(Blocks.CRAFTING_TABLE)){
                 pContext.getLevel().setBlock(pos,
-                        VPBRBlock.FIREARM_ASSEMBLY_STATION.get().defaultBlockState().setValue(HorizontalDirectionalBlock.FACING,
+                        VPBRBlock.WEAPON_CRAFTING_TABLE.get().defaultBlockState().setValue(HorizontalDirectionalBlock.FACING,
                                 player.getDirection().getOpposite()),1);
                 return InteractionResult.SUCCESS;
             }
-            if (state.is(VPBRBlock.FIREARM_ASSEMBLY_STATION.get())) {
-                pContext.getLevel().setBlock(pos,
-                        VPBRBlock.AMMUNITION_ASSEMBLY_STATION.get().defaultBlockState().setValue(HorizontalDirectionalBlock.FACING,
-                                player.getDirection().getOpposite()),1);
-                return InteractionResult.SUCCESS;
-            }
-            if (state.is(VPBRBlock.AMMUNITION_ASSEMBLY_STATION.get())) {
+            if (state.is(VPBRBlock.WEAPON_CRAFTING_TABLE.get())) {
                 pContext.getLevel().setBlock(pos,
                         Blocks.CRAFTING_TABLE.defaultBlockState(),1);
                 return InteractionResult.SUCCESS;

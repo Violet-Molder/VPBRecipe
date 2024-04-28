@@ -61,12 +61,10 @@ public class VPBRBlockTagProvider extends BlockTagsProvider {
                         VPBROre.SULFUR_ORE.get(),
                         VPBROre.DEEPSLATE_SULFUR_ORE.get(),
                         VPBROre.OIL_SHALE_ORE.get()
-
         );
         this.tag(BlockTags.MINEABLE_WITH_AXE)
                 .add(
-                        VPBRBlock.AMMUNITION_ASSEMBLY_STATION.get(),
-                        VPBRBlock.FIREARM_ASSEMBLY_STATION.get()
+                        VPBRBlock.WEAPON_CRAFTING_TABLE.get()
                 );
 
     }

@@ -1,0 +1,25 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "vpbrecipre:aughbar_item"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "vpbrecipre:lamg_item"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "vpbrecipe:mk48_item"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "vpbrecipe:m249_item"
+        }
+      ]
+    }
+  ]
+}

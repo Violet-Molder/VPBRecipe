@@ -1,4 +1,4 @@
-// 1.20.1	2024-03-02T19:07:05.7310267	Registries
+// 1.20.1	2024-04-20T22:07:07.6699869	Registries
 f0e0b98ac516f06a6d8441cc91f08b0424e222fc data/vpbrecipe/forge/biome_modifier/add_aluminium_ore.json
 49fb1eb45e2cda918bbd597cc5453566153e059e data/vpbrecipe/forge/biome_modifier/add_oil_shale_ore.json
 c614ffffa2f1c5c6f7fb6fb600bebac4cebc61d3 data/vpbrecipe/forge/biome_modifier/add_saltpeter_ore.json
@@ -8,9 +8,9 @@ c614ffffa2f1c5c6f7fb6fb600bebac4cebc61d3 data/vpbrecipe/forge/biome_modifier/add
 866c6078b49bf9c596f04cd9f2f7ca3b27c69fae data/vpbrecipe/worldgen/configured_feature/oil_shale_ore_key.json
 416ee62ea04114a7f52864f8c9f95082939dad09 data/vpbrecipe/worldgen/configured_feature/saltpeter_ore_key.json
 64e9413fd13bc9a80c699b47c3f97f5ff3883993 data/vpbrecipe/worldgen/configured_feature/sulfur_ore_key.json
-bd81c51a2535e73154a158cfe42222d6eaeead52 data/vpbrecipe/worldgen/configured_feature/zinc_ore_key.json
+9ebc785864bc88c8c75deedfa5ba0ff422c04029 data/vpbrecipe/worldgen/configured_feature/zinc_ore_key.json
 c1f5442ade9b4340a41b7810047c72c5867514d5 data/vpbrecipe/worldgen/placed_feature/aluminium_ore_placed.json
 4ccc882ffae70d3edeb3c18ffd32dd2354c409d1 data/vpbrecipe/worldgen/placed_feature/oil_shale_ore_placed.json
 ed7846b53a4b3f2a074dd875b86e473251e9d417 data/vpbrecipe/worldgen/placed_feature/saltpeter_ore_placed.json
 9b2dcc35789235c7e4fe66bf032496653db7449b data/vpbrecipe/worldgen/placed_feature/sulfur_ore_placed.json
-c59df0f726b9e1db7fd66bfb467160b670a780a7 data/vpbrecipe/worldgen/placed_feature/zinc_ore_placed.json
+76d2214dfaf6d9c4ca4c21fea979cf28af6d3876 data/vpbrecipe/worldgen/placed_feature/zinc_ore_placed.json

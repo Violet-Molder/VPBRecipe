@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "material",
+  "pattern": [
+    "112",
+    "122",
+    "112"
+  ],
+  "key": {
+    "1": {
+      "tag": "forge:ingots/brass"
+    },
+    "2": {
+      "item": "minecraft:gunpowder"
+    }
+  },
+  "result": {
+    "item": "pointblank:grenade40mm",
+    "count": 32
+  }
+}

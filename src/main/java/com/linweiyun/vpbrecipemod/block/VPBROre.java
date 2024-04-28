@@ -88,10 +88,6 @@ public class VPBROre {
         );
     });
 
-    public static final RegistryObject<Block> INDUSTRIAL_PLANKS = VPBRRegistry.registerBlock("industrial_planks", REGISTRY, () -> {
-        return new Block(Properties.copy(Blocks.OAK_PLANKS)
-        );
-    });
 
 
     public static void register(IEventBus eventBus) {

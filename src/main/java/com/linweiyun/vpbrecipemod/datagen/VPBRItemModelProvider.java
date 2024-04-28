@@ -24,8 +24,6 @@ public class VPBRItemModelProvider extends ItemModelProvider {
     }
 
     protected void registerModels() {
-        this.simpleItemModel(WeaponBox.WEAPON_BOX);
-
         this.simpleItemModel(VPBROreItem.MODEL_GUN);
         this.simpleItemModel(VPBROreItem.RAW_ZINC);
         this.simpleItemModel(VPBROreItem.ZINC_INGOT);
@@ -63,12 +61,17 @@ public class VPBRItemModelProvider extends ItemModelProvider {
 
         this.simpleItemModel(VPBRGunItem.GLOCK17_ITEM);
         this.simpleItemModel(VPBRGunItem.GLOCK18_ITEM);
+        this.simpleItemModel(VPBRGunItem.M9_ITEM);
         this.simpleItemModel(VPBRGunItem.M1911A1_ITEM);
+        this.simpleItemModel(VPBRGunItem.TTI_VIPER_ITEM);
+        this.simpleItemModel(VPBRGunItem.P30L_ITEM);
+        this.simpleItemModel(VPBRGunItem.RHINO_ITEM);
         this.simpleItemModel(VPBRGunItem.M4A1_ITEM);
         this.simpleItemModel(VPBRGunItem.M4A1MODI_TEM);
         this.simpleItemModel(VPBRGunItem.STAR15_ITEM);
         this.simpleItemModel(VPBRGunItem.M4SOPMODII_ITEM);
         this.simpleItemModel(VPBRGunItem.M16A1_ITEM);
+        this.simpleItemModel(VPBRGunItem.HK416_ITEM);
         this.simpleItemModel(VPBRGunItem.SCARL_ITEM);
         this.simpleItemModel(VPBRGunItem.XM7_ITEM);
         this.simpleItemModel(VPBRGunItem.G36C_ITEM);
@@ -86,6 +89,7 @@ public class VPBRItemModelProvider extends ItemModelProvider {
         this.simpleItemModel(VPBRGunItem.M950_ITEM);
         this.simpleItemModel(VPBRGunItem.SL8_ITEM);
         this.simpleItemModel(VPBRGunItem.MK14EBR_ITEM);
+        this.simpleItemModel(VPBRGunItem.UAR10_ITEM);
         this.simpleItemModel(VPBRGunItem.WA2000_ITEM);
         this.simpleItemModel(VPBRGunItem.XM3_ITEM);
         this.simpleItemModel(VPBRGunItem.C14_ITEM);
@@ -100,6 +104,14 @@ public class VPBRItemModelProvider extends ItemModelProvider {
         this.simpleItemModel(VPBRGunItem.HS12_ITEM);
         this.simpleItemModel(VPBRGunItem.AUGHBAR_ITEM);
         this.simpleItemModel(VPBRGunItem.LAMG_ITEM);
+
+        this.simpleItemModel(VPBRGunItem.MK48_ITEM);
+        this.simpleItemModel(VPBRGunItem.M249_ITEM);
+        this.simpleItemModel(VPBRGunItem.M32MGL_ITEM);
+        this.simpleItemModel(VPBRGunItem.SMAW_ITEM);
+        this.simpleItemModel(VPBRGunItem.AT4_ITEM);
+        this.simpleItemModel(VPBRGunItem.JAVELIN_ITEM);
+        this.simpleItemModel(VPBRGunItem.M134MINIGUN_ITEM);
 
     }
 

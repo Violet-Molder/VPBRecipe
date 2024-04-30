@@ -4,80 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="097ecfa1-3729-4f00-99f4-4131190f1d07" name="更改" comment="带工作台的版本">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/linweiyun/vpbrecipemod/VPBRConfing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/linweiyun/vpbrecipemod/item/WeaponBox/MachineGunWeaponBox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/linweiyun/vpbrecipemod/item/WeaponBox/RifleWeaponBox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/linweiyun/vpbrecipemod/item/WeaponBox/RocketWeaponBox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/linweiyun/vpbrecipemod/item/WeaponBox/ShotgunWeaponBox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/linweiyun/vpbrecipemod/item/WeaponBox/SniperRifleWeaponBox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/linweiyun/vpbrecipemod/item/WeaponBox/SubGunWeaponBox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/vpbrecipe/models/item/weapon_box_machine_gun.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/vpbrecipe/models/item/weapon_box_pistol.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/vpbrecipe/models/item/weapon_box_rifle.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/vpbrecipe/models/item/weapon_box_rocket.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/vpbrecipe/models/item/weapon_box_shotgun.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/vpbrecipe/models/item/weapon_box_sniper_rifle.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/vpbrecipe/models/item/weapon_box_sub_gun.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/vpbrecipe/textures/item/at4_item.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/vpbrecipe/textures/item/hk416_item.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/vpbrecipe/textures/item/javelin_item.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/vpbrecipe/textures/item/m134minigun_item.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/vpbrecipe/textures/item/m249_item.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/vpbrecipe/textures/item/m32mgl_item.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/vpbrecipe/textures/item/m9_item.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/vpbrecipe/textures/item/mk48_item.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/vpbrecipe/textures/item/p30l_item.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/vpbrecipe/textures/item/smaw_item.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/vpbrecipe/textures/item/tti_viper_item.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/vpbrecipe/textures/item/uar10_item.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/vpbrecipe/textures/item/weapon_box_machine_gun.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/vpbrecipe/textures/item/weapon_box_pistol.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/vpbrecipe/textures/item/weapon_box_rifle.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/vpbrecipe/textures/item/weapon_box_rocket.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/vpbrecipe/textures/item/weapon_box_shotgun.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/vpbrecipe/textures/item/weapon_box_sniper_rifle.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/vpbrecipe/textures/item/weapon_box_sub_gun.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/vpbrecipe/recipes/.357_crafting.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/vpbrecipe/recipes/.40grenad.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/vpbrecipe/recipes/.smaw_rocket.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/vpbrecipe/recipes/gun_hk416.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/vpbrecipe/recipes/gun_javelin.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/vpbrecipe/recipes/gun_m134minigun.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/vpbrecipe/recipes/gun_m249.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/vpbrecipe/recipes/gun_m9.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/vpbrecipe/recipes/gun_mk48.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/vpbrecipe/recipes/gun_p30l.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/vpbrecipe/recipes/gun_rhino.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/vpbrecipe/recipes/gun_smaw.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/vpbrecipe/recipes/gun_tti_viper.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/vpbrecipe/recipes/gun_uar10.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/vpbrecipe/recipes/m32mgl.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/vpbrecipe/recipes/weapon_box_pistol.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/vpbrecipe/recipes/weapon_box_rifle.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/vpbrecipe/recipes/weapon_box_rocket.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/vpbrecipe/recipes/weapon_box_shotgun.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/vpbrecipe/recipes/weapon_box_sniper_rifle.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/vpbrecipe/recipes/weapon_box_sub_gon.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="097ecfa1-3729-4f00-99f4-4131190f1d07" name="更改" comment="不使用战利品表的版本">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/linweiyun/vpbrecipemod/events/addLoot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/vpbrecipe/loot_tables/chests/ancient_city.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/vpbrecipe/loot_tables/entities/zombie.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run-data/logs/2024-04-16-1.log.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run-data/logs/2024-04-16-2.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run-data/logs/2024-04-16-2.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run-data/logs/2024-04-16-3.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run-data/logs/2024-04-16-3.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run-data/logs/2024-04-16-4.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run-data/logs/2024-04-16-4.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run-data/logs/debug-1.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run-data/logs/debug-1.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run-data/logs/debug-2.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run-data/logs/debug-2.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run-data/logs/debug-3.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run-data/logs/debug-3.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run-data/logs/debug-4.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run-data/logs/debug-4.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run-data/logs/debug-5.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run-data/logs/debug-5.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run-data/logs/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/run-data/logs/debug.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run-data/logs/latest.log" beforeDir="false" afterPath="$PROJECT_DIR$/run-data/logs/latest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2024-04-17-1.log.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2024-04-17-2.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2024-04-17-2.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2024-04-17-3.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2024-04-17-3.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2024-04-17-4.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2024-04-17-4.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2024-04-17-5.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2024-04-17-5.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/debug-1.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-1.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/debug-2.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-2.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/debug-3.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-3.log.gz" afterDir="false" />
@@ -85,138 +16,7 @@
       <change beforePath="$PROJECT_DIR$/run/logs/debug-5.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-5.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/latest.log" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/latest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/options.txt" beforeDir="false" afterPath="$PROJECT_DIR$/run/options.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (17)/DIM-1/data/raids.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/新的世界 (17)/DIM-1/data/raids.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (17)/DIM1/data/raids_end.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/新的世界 (17)/DIM1/data/raids_end.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (17)/advancements/380df991-f603-344c-a090-369bad2a924a.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/新的世界 (17)/advancements/380df991-f603-344c-a090-369bad2a924a.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (17)/data/raids.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/新的世界 (17)/data/raids.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (17)/data/random_sequences.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/新的世界 (17)/data/random_sequences.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (17)/entities/r.-1.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/新的世界 (17)/entities/r.-1.-1.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (17)/entities/r.-1.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/新的世界 (17)/entities/r.-1.0.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (17)/entities/r.0.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/新的世界 (17)/entities/r.0.-1.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (17)/entities/r.0.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/新的世界 (17)/entities/r.0.0.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (17)/level.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/新的世界 (17)/level.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (17)/level.dat_old" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/新的世界 (17)/level.dat_old" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (17)/playerdata/380df991-f603-344c-a090-369bad2a924a.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/新的世界 (17)/playerdata/380df991-f603-344c-a090-369bad2a924a.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (17)/playerdata/380df991-f603-344c-a090-369bad2a924a.dat_old" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/新的世界 (17)/playerdata/380df991-f603-344c-a090-369bad2a924a.dat_old" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (17)/poi/r.-1.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/新的世界 (17)/poi/r.-1.-1.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (17)/poi/r.-1.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/新的世界 (17)/poi/r.-1.0.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (17)/poi/r.0.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/新的世界 (17)/poi/r.0.-1.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (17)/poi/r.0.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/新的世界 (17)/poi/r.0.0.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (17)/region/r.-1.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/新的世界 (17)/region/r.-1.-1.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (17)/region/r.-1.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/新的世界 (17)/region/r.-1.0.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (17)/region/r.0.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/新的世界 (17)/region/r.0.-1.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (17)/region/r.0.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/新的世界 (17)/region/r.0.0.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (17)/stats/380df991-f603-344c-a090-369bad2a924a.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/新的世界 (17)/stats/380df991-f603-344c-a090-369bad2a924a.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (18)/DIM-1/data/raids.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/新的世界 (18)/DIM-1/data/raids.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (18)/DIM1/data/raids_end.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/新的世界 (18)/DIM1/data/raids_end.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (18)/advancements/380df991-f603-344c-a090-369bad2a924a.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/新的世界 (18)/advancements/380df991-f603-344c-a090-369bad2a924a.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (18)/data/raids.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/新的世界 (18)/data/raids.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (18)/data/random_sequences.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/新的世界 (18)/data/random_sequences.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (18)/entities/r.0.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/新的世界 (18)/entities/r.0.-1.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (18)/entities/r.0.-2.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/新的世界 (18)/entities/r.0.-2.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (18)/entities/r.1.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/新的世界 (18)/entities/r.1.-1.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (18)/entities/r.1.-2.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/新的世界 (18)/entities/r.1.-2.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (18)/level.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/新的世界 (18)/level.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (18)/level.dat_old" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/新的世界 (18)/level.dat_old" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (18)/playerdata/380df991-f603-344c-a090-369bad2a924a.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/新的世界 (18)/playerdata/380df991-f603-344c-a090-369bad2a924a.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (18)/playerdata/380df991-f603-344c-a090-369bad2a924a.dat_old" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/新的世界 (18)/playerdata/380df991-f603-344c-a090-369bad2a924a.dat_old" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (18)/region/r.-1.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/新的世界 (18)/region/r.-1.-1.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (18)/region/r.-1.-2.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/新的世界 (18)/region/r.-1.-2.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (18)/region/r.-1.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/新的世界 (18)/region/r.-1.0.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (18)/region/r.0.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/新的世界 (18)/region/r.0.-1.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (18)/region/r.0.-2.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/新的世界 (18)/region/r.0.-2.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (18)/region/r.0.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/新的世界 (18)/region/r.0.0.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (18)/region/r.1.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/新的世界 (18)/region/r.1.-1.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (18)/region/r.1.-2.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/新的世界 (18)/region/r.1.-2.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (18)/region/r.1.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/新的世界 (18)/region/r.1.0.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界 (18)/stats/380df991-f603-344c-a090-369bad2a924a.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/新的世界 (18)/stats/380df991-f603-344c-a090-369bad2a924a.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/server.properties" beforeDir="false" afterPath="$PROJECT_DIR$/run/server.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/usercache.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/usercache.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/world/DIM-1/data/raids.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/world/DIM-1/data/raids.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/world/DIM1/data/raids_end.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/world/DIM1/data/raids_end.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/world/data/raids.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/world/data/raids.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/world/data/random_sequences.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/world/data/random_sequences.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/world/entities/r.-1.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/world/entities/r.-1.-1.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/world/entities/r.-1.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/world/entities/r.-1.0.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/world/entities/r.0.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/world/entities/r.0.-1.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/world/entities/r.0.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/world/entities/r.0.0.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/world/level.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/world/level.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/world/level.dat_old" beforeDir="false" afterPath="$PROJECT_DIR$/run/world/level.dat_old" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/world/playerdata/380df991-f603-344c-a090-369bad2a924a.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/world/playerdata/380df991-f603-344c-a090-369bad2a924a.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/world/playerdata/380df991-f603-344c-a090-369bad2a924a.dat_old" beforeDir="false" afterPath="$PROJECT_DIR$/run/world/playerdata/380df991-f603-344c-a090-369bad2a924a.dat_old" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/world/poi/r.-1.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/world/poi/r.-1.-1.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/world/region/r.-1.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/world/region/r.-1.-1.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/world/region/r.-1.-2.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/world/region/r.-1.-2.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/world/region/r.-1.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/world/region/r.-1.0.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/world/region/r.0.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/world/region/r.0.-1.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/world/region/r.0.-2.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/world/region/r.0.-2.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/world/region/r.0.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/world/region/r.0.0.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/world/stats/380df991-f603-344c-a090-369bad2a924a.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/world/stats/380df991-f603-344c-a090-369bad2a924a.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/generated/resources/.cache/103d9f3f36b01595f1aa5172191e60eff02e6924" beforeDir="false" afterPath="$PROJECT_DIR$/src/generated/resources/.cache/103d9f3f36b01595f1aa5172191e60eff02e6924" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/generated/resources/.cache/61335bf16b348ce69f9e26792066343f9fefdb8d" beforeDir="false" afterPath="$PROJECT_DIR$/src/generated/resources/.cache/61335bf16b348ce69f9e26792066343f9fefdb8d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/generated/resources/.cache/8ffc7229e6bd76bbec86da80786bc430b820d76e" beforeDir="false" afterPath="$PROJECT_DIR$/src/generated/resources/.cache/8ffc7229e6bd76bbec86da80786bc430b820d76e" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/generated/resources/.cache/fb00cf1b3bb8ab2da593810fa787eb056e4ea44f" beforeDir="false" afterPath="$PROJECT_DIR$/src/generated/resources/.cache/fb00cf1b3bb8ab2da593810fa787eb056e4ea44f" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/generated/resources/assets/vpbrecipe/blockstates/industrial_planks.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/generated/resources/assets/vpbrecipe/models/block/industrial_planks.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/generated/resources/assets/vpbrecipe/models/item/industrial_planks.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/generated/resources/assets/vpbrecipe/models/item/pistol_weapon_box.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/generated/resources/data/minecraft/tags/blocks/mineable/axe.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/generated/resources/data/minecraft/tags/blocks/mineable/axe.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/generated/resources/data/vpbrecipe/worldgen/configured_feature/zinc_ore_key.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/generated/resources/data/vpbrecipe/worldgen/configured_feature/zinc_ore_key.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/generated/resources/data/vpbrecipe/worldgen/placed_feature/zinc_ore_placed.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/generated/resources/data/vpbrecipe/worldgen/placed_feature/zinc_ore_placed.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/linweiyun/vpbrecipemod/VPBRItemGroups.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/linweiyun/vpbrecipemod/VPBRItemGroups.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/linweiyun/vpbrecipemod/VPBRecipeMod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/linweiyun/vpbrecipemod/VPBRecipeMod.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/linweiyun/vpbrecipemod/block/VPBRBlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/linweiyun/vpbrecipemod/block/VPBRBlock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/linweiyun/vpbrecipemod/block/VPBROre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/linweiyun/vpbrecipemod/block/VPBROre.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/linweiyun/vpbrecipemod/block/custom/WeaponCraftingTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/linweiyun/vpbrecipemod/block/custom/WeaponCraftingTable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/linweiyun/vpbrecipemod/block/custom/blockeneity/WeaponCraftingTableEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/linweiyun/vpbrecipemod/block/custom/blockeneity/WeaponCraftingTableEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/linweiyun/vpbrecipemod/datagen/VPBRBlockStateProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/linweiyun/vpbrecipemod/datagen/VPBRBlockStateProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/linweiyun/vpbrecipemod/datagen/VPBRBlockTagProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/linweiyun/vpbrecipemod/datagen/VPBRBlockTagProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/linweiyun/vpbrecipemod/datagen/VPBRItemModelProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/linweiyun/vpbrecipemod/datagen/VPBRItemModelProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/linweiyun/vpbrecipemod/events/LogInMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/linweiyun/vpbrecipemod/events/LogInMessage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/linweiyun/vpbrecipemod/events/VPBRecipeEvents.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/linweiyun/vpbrecipemod/init/VPBRInit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/linweiyun/vpbrecipemod/init/VPBRInit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/linweiyun/vpbrecipemod/init/VPBRRegistry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/linweiyun/vpbrecipemod/init/VPBRRegistry.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/linweiyun/vpbrecipemod/item/Hummer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/linweiyun/vpbrecipemod/item/Hummer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/linweiyun/vpbrecipemod/item/VPBRGunItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/linweiyun/vpbrecipemod/item/VPBRGunItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/linweiyun/vpbrecipemod/item/VPBROreItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/linweiyun/vpbrecipemod/item/VPBROreItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/linweiyun/vpbrecipemod/item/WeaponBox/PistolWeaponBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/linweiyun/vpbrecipemod/item/WeaponBox/PistolWeaponBox.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/linweiyun/vpbrecipemod/item/WeaponBox/WeaponBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/linweiyun/vpbrecipemod/item/WeaponBox/WeaponBox.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/linweiyun/vpbrecipemod/recipetype/VRecipeType.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/linweiyun/vpbrecipemod/recipetype/WeaponCraftingTableRecipeType.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/linweiyun/vpbrecipemod/screen/VPBRGui.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/linweiyun/vpbrecipemod/screen/VPBRGui.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/linweiyun/vpbrecipemod/screen/WeaponCraftingTableScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/linweiyun/vpbrecipemod/screen/WeaponCraftingTableScreen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/linweiyun/vpbrecipemod/screen/WeaponCraftingTbaleMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/linweiyun/vpbrecipemod/screen/WeaponCraftingTbaleMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/linweiyun/vpbrecipemod/villager/VPBRecipeVillagers.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/pointblank/models/item/wml.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/pointblank/textures/item/wml.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/vpbrecipe/blockstates/ammunition_assembly_station.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/vpbrecipe/blockstates/firearm_assembly_station.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/vpbrecipe/lang/en_us.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/vpbrecipe/lang/en_us.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/vpbrecipe/lang/zh_cn.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/vpbrecipe/lang/zh_cn.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/vpbrecipe/models/block/ammunition_assembly_station.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/vpbrecipe/models/block/firearm_assembly_station.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/vpbrecipe/models/item/ammunition_assembly_station.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/vpbrecipe/models/item/weapon_crafting_table.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/vpbrecipe/models/item/firearm_assembly_station.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/vpbrecipe/textures/block/ammunition_assembly_station_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/vpbrecipe/textures/block/ammunition_assembly_station_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/vpbrecipe/textures/block/ammunition_assembly_station_3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/vpbrecipe/textures/block/firearm_assembly_station_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/vpbrecipe/textures/block/firearm_assembly_station_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/vpbrecipe/textures/block/firearm_assembly_station_3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/vpbrecipe/textures/block/industrial_planks.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/vpbrecipe/textures/entity/villager/profession/ammunition_dealer.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/vpbrecipe/textures/entity/villager/profession/arms_dealer.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/vpbrecipe/textures/gui/button/glock17.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/vpbrecipe/textures/item/rhino_item.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/vpbrecipe/textures/gui/lvj_injecting_magic_altar_screen.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/vpbrecipe/textures/gui/weapon_box.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/vpbrecipe/loot_tables/blocks/ammunition_assembly_station.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/vpbrecipe/loot_tables/blocks/weapon_crafting_table.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/vpbrecipe/loot_tables/blocks/firearm_assembly_station.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/vpbrecipe/recipes/1test.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/vpbrecipe/recipes/industrial_planks.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/vpbrecipe/recipes/weapon_box_machine_gun.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/vpbrecipe/recipes/rocket_at4.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/vpbrecipe/recipes/.javelin_rocket.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/vpbrecipe/recipes/rocket_smaw.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/vpbrecipe/recipes/.at4_rocket.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/vpbrecipe/recipes/wml.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/vpbrecipe/recipes/gun_at4.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -286,36 +86,36 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Gradle.lycoris-1.20.1-forge [:createMcpToSrg :createMcpToSrg :createMcpToSrg].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.lycoris-1.20.1-forge [build].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.lycoris-1.20.1-forge [runClient].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.lycoris-1.20.1-forge [runData].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.lycoris-1.20.1-forge [runGameTestServer].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.lycoris-1.20.1-forge [runServer].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.正在构建 Gradle 依赖项.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/Documents/MOD/MC_MOD/lycoris-1.20.1-forge/src/main/resources/data/vpbrecipe/recipes&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Gradle.lycoris-1.20.1-forge [:createMcpToSrg :createMcpToSrg :createMcpToSrg].executor": "Run",
+    "Gradle.lycoris-1.20.1-forge [build].executor": "Run",
+    "Gradle.lycoris-1.20.1-forge [runClient].executor": "Run",
+    "Gradle.lycoris-1.20.1-forge [runData].executor": "Run",
+    "Gradle.lycoris-1.20.1-forge [runGameTestServer].executor": "Run",
+    "Gradle.lycoris-1.20.1-forge [runServer].executor": "Run",
+    "Gradle.正在构建 Gradle 依赖项.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "E:/Documents/MOD/MC_MOD/lycoris-1.20.1-forge/src/main/resources/data/vpbrecipe/loot_tables",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.keymap",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Documents\MOD\MC_MOD\lycoris-1.20.1-forge\src\main\resources\data\vpbrecipe\loot_tables" />
+      <recent name="E:\Documents\MOD\MC_MOD\lycoris-1.20.1-forge\src\main\resources\data\vpbrecipe\loot_tables\weapon_box" />
       <recent name="E:\Documents\MOD\MC_MOD\lycoris-1.20.1-forge\src\main\resources\data\vpbrecipe\recipes" />
       <recent name="E:\Documents\MOD\MC_MOD\lycoris-1.20.1-forge\src\main\resources\assets\vpbrecipe\models\item" />
       <recent name="E:\Documents\MOD\MC_MOD\lycoris-1.20.1-forge\src\main\resources\assets\vpbrecipe\textures\item" />
-      <recent name="E:\Documents\MOD\MC_MOD\lycoris-1.20.1-forge\src\main\java\com\linweiyun\vpbrecipemod\test" />
-      <recent name="E:\Documents\MOD\MC_MOD\lycoris-1.20.1-forge\src\main\java\com\linweiyun\vpbrecipemod\recipetype" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\Documents\MOD\MC_MOD\lycoris-1.20.1-forge\src\main\resources\assets\vpbrecipe\textures\gui" />
@@ -332,7 +132,7 @@
       <recent name="com.linweiyun.vpbrecipemod.datagen" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.lycoris-1.20.1-forge [build]">
+  <component name="RunManager" selected="Gradle.lycoris-1.20.1-forge [runClient]">
     <configuration name="lycoris-1.20.1-forge [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -445,9 +245,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.lycoris-1.20.1-forge [runClient]" />
         <item itemvalue="Gradle.lycoris-1.20.1-forge [build]" />
         <item itemvalue="Gradle.lycoris-1.20.1-forge [runData]" />
-        <item itemvalue="Gradle.lycoris-1.20.1-forge [runClient]" />
         <item itemvalue="Gradle.lycoris-1.20.1-forge [runServer]" />
         <item itemvalue="Gradle.lycoris-1.20.1-forge [runGameTestServer]" />
       </list>
@@ -502,6 +302,8 @@
       <workItem from="1713964026497" duration="899000" />
       <workItem from="1714058309946" duration="2795000" />
       <workItem from="1714207193566" duration="3324000" />
+      <workItem from="1714301480755" duration="3644000" />
+      <workItem from="1714492822443" duration="6245000" />
     </task>
     <task id="LOCAL-00001" summary="带工作台的版本">
       <option name="closed" value="true" />
@@ -519,7 +321,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713590358781</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="不使用战利品表的版本">
+      <option name="closed" value="true" />
+      <created>1714302037897</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1714302037897</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -527,6 +337,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="带工作台的版本" />
-    <option name="LAST_COMMIT_MESSAGE" value="带工作台的版本" />
+    <MESSAGE value="不使用战利品表的版本" />
+    <option name="LAST_COMMIT_MESSAGE" value="不使用战利品表的版本" />
   </component>
 </project>
